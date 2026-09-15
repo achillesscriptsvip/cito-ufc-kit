@@ -14,3 +14,7 @@ __pycache__/
 
 # Generated datasets (regenerate with datasets/generate.py)
 datasets/*.jsonl
+
+# Generated Kaggle/HF upload artifacts
+datasets/kaggle/*.csv
+datasets/hf-upload/

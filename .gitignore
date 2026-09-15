@@ -11,3 +11,6 @@ __pycache__/
 *.log
 .DS_Store
 .pytest_cache/
+
+# Generated datasets (regenerate with datasets/generate.py)
+datasets/*.jsonl

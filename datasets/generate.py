@@ -80,6 +80,53 @@ def write_jsonl(path: Path, rows: Iterator[Dict[str, Any]]) -> int:
 
 
 # --------------------------------------------------------------------------- #
+# parsing helpers
+#
+# Round rows arrive with combined "landed of attempted" strings rather than
+# separate integer columns, e.g. significantStrikes="3 of 5", controlTime="0:11".
+# --------------------------------------------------------------------------- #
+
+
+def parse_of(value: Any) -> tuple[Optional[int], Optional[int]]:
+    """`"3 of 5"` -> (3, 5). Returns (None, None) when unparseable."""
+    if value is None:
+        return None, None
+    if isinstance(value, (int, float)):
+        return int(value), None
+    text = str(value).strip()
+    if " of " in text:
+        landed, _, attempted = text.partition(" of ")
+        try:
+            return int(landed.strip()), int(attempted.strip())
+        except ValueError:
+            return None, None
+    try:
+        return int(text), None
+    except ValueError:
+        return None, None
+
+
+def clock_to_seconds(value: Any) -> Optional[int]:
+    """`"0:11"` -> 11. Also accepts `"1:02:03"` and bare seconds."""
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        return int(value)
+    text = str(value).strip()
+    if not text:
+        return None
+    parts = text.split(":")
+    try:
+        nums = [int(p) for p in parts]
+    except ValueError:
+        return None
+    seconds = 0
+    for n in nums:
+        seconds = seconds * 60 + n
+    return seconds
+
+
+# --------------------------------------------------------------------------- #
 # dataset 1: round statistics
 # --------------------------------------------------------------------------- #
 
@@ -122,9 +169,24 @@ def round_stats_rows(c: httpx.Client, max_events: int) -> Iterator[Dict[str, Any
                 continue
 
             for row in rows:
-                pos = (row.get("fighterPosition") or "").lower()
-                me = red if pos == "a" else blue if pos == "b" else None
-                opp = blue if pos == "a" else red if pos == "b" else None
+                # Round rows identify the fighter by slug; match it to a corner.
+                fighter_slug = row.get("fighterSlug")
+                if fighter_slug and fighter_slug == blue.get("fighterSlug"):
+                    me, opp = blue, red
+                elif fighter_slug and fighter_slug == red.get("fighterSlug"):
+                    me, opp = red, blue
+                else:
+                    me, opp = {}, {}
+
+                sig_l, sig_a = parse_of(row.get("significantStrikes"))
+                tot_l, tot_a = parse_of(row.get("totalStrikes"))
+                td_l, td_a = parse_of(row.get("takedowns"))
+                head_l, head_a = parse_of(row.get("head"))
+                body_l, body_a = parse_of(row.get("body"))
+                leg_l, leg_a = parse_of(row.get("leg"))
+                dist_l, dist_a = parse_of(row.get("distance"))
+                clinch_l, clinch_a = parse_of(row.get("clinch"))
+                ground_l, ground_a = parse_of(row.get("ground"))
 
                 yield {
                     "event_slug": slug,
@@ -134,25 +196,39 @@ def round_stats_rows(c: httpx.Client, max_events: int) -> Iterator[Dict[str, Any
                     "weight_class": bout.get("weightClass"),
                     "is_title_bout": bout.get("titleBout"),
                     "card_section": bout.get("cardSection"),
-                    "fighter_slug": me.get("fighterSlug") if me else row.get("fighterSlug"),
-                    "fighter_name": me.get("fighterName") if me else None,
-                    "opponent_slug": opp.get("fighterSlug") if opp else None,
-                    "opponent_name": opp.get("fighterName") if opp else None,
+                    "fighter_slug": fighter_slug,
+                    "fighter_name": row.get("fighterName") or me.get("fighterName"),
+                    "opponent_slug": opp.get("fighterSlug"),
+                    "opponent_name": opp.get("fighterName"),
                     "result": bout.get("method"),
                     "result_round": bout.get("resultRound"),
                     "result_time": bout.get("resultTime"),
                     "winner_slug": bout.get("winnerFighterSlug"),
                     "round": row.get("round"),
                     "knockdowns": row.get("knockdowns"),
-                    "sig_strikes_landed": row.get("sigStrikesLanded"),
-                    "sig_strikes_attempted": row.get("sigStrikesAttempted"),
-                    "total_strikes_landed": row.get("totalStrikesLanded"),
-                    "total_strikes_attempted": row.get("totalStrikesAttempted"),
-                    "takedowns_landed": row.get("takedownsLanded"),
-                    "takedowns_attempted": row.get("takedownsAttempted"),
+                    "sig_strikes_landed": sig_l,
+                    "sig_strikes_attempted": sig_a,
+                    "sig_strike_accuracy": round(sig_l / sig_a, 4) if sig_l and sig_a else None,
+                    "total_strikes_landed": tot_l,
+                    "total_strikes_attempted": tot_a,
+                    "takedowns_landed": td_l,
+                    "takedowns_attempted": td_a,
+                    "takedown_accuracy": round(td_l / td_a, 4) if td_l and td_a else None,
                     "submission_attempts": row.get("submissionAttempts"),
                     "reversals": row.get("reversals"),
-                    "control_time_sec": row.get("controlTimeSec"),
+                    "control_time_sec": clock_to_seconds(row.get("controlTime")),
+                    "head_landed": head_l,
+                    "head_attempted": head_a,
+                    "body_landed": body_l,
+                    "body_attempted": body_a,
+                    "leg_landed": leg_l,
+                    "leg_attempted": leg_a,
+                    "distance_landed": dist_l,
+                    "distance_attempted": dist_a,
+                    "clinch_landed": clinch_l,
+                    "clinch_attempted": clinch_a,
+                    "ground_landed": ground_l,
+                    "ground_attempted": ground_a,
                 }
 
 

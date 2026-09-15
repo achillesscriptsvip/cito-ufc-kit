@@ -1,0 +1,4268 @@
+{
+  "generatedAt": "2026-09-15T22:15:20.004Z",
+  "source": "Cito UFC API",
+  "sourceUrl": "https://citoapi.com/ufc-api/",
+  "docs": "https://citoapi.com/docs/api/ufc/",
+  "boards": {
+    "media": {
+      "bantamweight": {
+        "label": "Bantamweight",
+        "entries": [
+          {
+            "slug": "petr-yan",
+            "name": "Petr Yan",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "merab-dvalishvili",
+            "name": "Merab Dvalishvili",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Georgia",
+            "flag": "🇬🇪",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "sean-omalley",
+            "name": "Sean O'Malley",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "song-yadong",
+            "name": "Song Yadong",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "umar-nurmagomedov",
+            "name": "Umar Nurmagomedov",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "mario-bautista",
+            "name": "Mario Bautista",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "cory-sandhagen",
+            "name": "Cory Sandhagen",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "aiemann-zahabi",
+            "name": "Aiemann Zahabi",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "david-martinez",
+            "name": "David Martinez",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "deiveson-figueiredo",
+            "name": "Deiveson Figueiredo",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "marlon-vera",
+            "name": "Marlon Vera",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Ecuador",
+            "flag": "🇪🇨",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "payton-talbott",
+            "name": "Payton Talbott",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "raul-rosas-jr",
+            "name": "Raul Rosas Jr.",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "raoni-barcelos",
+            "name": "Raoni Barcelos",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "farid-basharat",
+            "name": "Farid Basharat",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": null,
+            "flag": null,
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "marcus-mcghee",
+            "name": "Marcus McGhee",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "featherweight": {
+        "label": "Featherweight",
+        "entries": [
+          {
+            "slug": "alexander-volkanovski",
+            "name": "Alexander Volkanovski",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "movsar-evloev",
+            "name": "Movsar Evloev",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "diego-lopes",
+            "name": "Diego Lopes",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "lerone-murphy",
+            "name": "Lerone Murphy",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "aljamain-sterling",
+            "name": "Aljamain Sterling",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "yair-rodriguez",
+            "name": "Yair Rodriguez",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "jean-silva",
+            "name": "Jean Silva",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "arnold-allen",
+            "name": "Arnold Allen",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "youssef-zalal",
+            "name": "Youssef Zalal",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Morocco",
+            "flag": "🇲🇦",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "kevin-vallejos",
+            "name": "Kevin Vallejos",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Argentina",
+            "flag": "🇦🇷",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "steve-garcia",
+            "name": "Steve Garcia",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "brian-ortega",
+            "name": "Brian Ortega",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "aaron-pico",
+            "name": "Aaron Pico",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "melquizael-costa",
+            "name": "Melquizael Costa",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "david-onama",
+            "name": "David Onama",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Uganda",
+            "flag": "🇺🇬",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "patricio-freire",
+            "name": "Patricio Pitbull",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "flyweight": {
+        "label": "Flyweight",
+        "entries": [
+          {
+            "slug": "joshua-van",
+            "name": "Joshua Van",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Myanmar",
+            "flag": "🇲🇲",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "alexandre-pantoja",
+            "name": "Alexandre Pantoja",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "manel-kape",
+            "name": "Manel Kape",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Angola",
+            "flag": null,
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "brandon-royval",
+            "name": "Brandon Royval",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "tatsuro-taira",
+            "name": "Tatsuro Taira",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "kyoji-horiguchi",
+            "name": "Kyoji Horiguchi",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "loneer-kavanagh",
+            "name": "Lone’er Kavanagh",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "asu-almabayev",
+            "name": "Asu Almabayev",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Kazakhstan",
+            "flag": "🇰🇿",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "brandon-moreno",
+            "name": "Brandon Moreno",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "amir-albazi",
+            "name": "Amir Albazi",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Iraq",
+            "flag": "🇮🇶",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "ramazan-temirov",
+            "name": "Ramazan Temirov",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Uzbekistan",
+            "flag": "🇺🇿",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "steve-erceg",
+            "name": "Steve Erceg",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "tim-elliott",
+            "name": "Tim Elliott",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "su-mudaerji",
+            "name": "Sumudaerji",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "tagir-ulanbekov",
+            "name": "Tagir Ulanbekov",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "alex-perez",
+            "name": "Alex Perez",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "heavyweight": {
+        "label": "Heavyweight",
+        "entries": [
+          {
+            "slug": "tom-aspinall",
+            "name": "Tom Aspinall",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "ciryl-gane",
+            "name": "Ciryl Gane",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "alexander-volkov",
+            "name": "Alexander Volkov",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "sergei-pavlovich",
+            "name": "Sergei Pavlovich",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "josh-hokit",
+            "name": "Josh Hokit",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "waldo-cortes-acosta",
+            "name": "Waldo Cortes Acosta",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Dominican Republic",
+            "flag": "🇩🇴",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "curtis-blaydes",
+            "name": "Curtis Blaydes",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "rizvan-kuniev",
+            "name": "Rizvan Kuniev",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "vitor-petrino",
+            "name": "Vitor Petrino",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "serghei-spivac",
+            "name": "Serghei Spivac",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Moldova",
+            "flag": "🇲🇩",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "ante-delija",
+            "name": "Ante Delija",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Croatia",
+            "flag": "🇭🇷",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "valter-walker",
+            "name": "Valter Walker",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "tyrell-fortune",
+            "name": "Tyrell Fortune",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "derrick-lewis",
+            "name": "Derrick Lewis",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "mario-pinto",
+            "name": "Mario Pinto",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Portugal",
+            "flag": "🇵🇹",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "aleksandar-rakic",
+            "name": "Aleksandar Rakić",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Austria",
+            "flag": "🇦🇹",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "light-heavyweight": {
+        "label": "Light Heavyweight",
+        "entries": [
+          {
+            "slug": "carlos-ulberg",
+            "name": "Carlos Ulberg",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "magomed-ankalaev",
+            "name": "Magomed Ankalaev",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "jiri-prochazka",
+            "name": "Jiří Procházka",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Czechia",
+            "flag": "🇨🇿",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "alex-pereira",
+            "name": "Alex Pereira",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "khalil-rountree-jr",
+            "name": "Khalil Rountree Jr.",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "navajo-stirling",
+            "name": "Navajo Stirling",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "paulo-costa",
+            "name": "Paulo Costa",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "jamahal-hill",
+            "name": "Jamahal Hill",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "azamat-murzakanov",
+            "name": "Azamat Murzakanov",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "jan-blachowicz",
+            "name": "Jan Błachowicz",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Poland",
+            "flag": "🇵🇱",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "dominick-reyes",
+            "name": "Dominick Reyes",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "bogdan-guskov",
+            "name": "Bogdan Guskov",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Uzbekistan",
+            "flag": "🇺🇿",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "robert-whittaker",
+            "name": "Robert Whittaker",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "johnny-walker",
+            "name": "Johnny Walker",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "alonzo-menifield",
+            "name": "Alonzo Menifield",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "nikita-krylov",
+            "name": "Nikita Krylov",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "lightweight": {
+        "label": "Lightweight",
+        "entries": [
+          {
+            "slug": "justin-gaethje",
+            "name": "Justin Gaethje",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "ilia-topuria",
+            "name": "Ilia Topuria",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "arman-tsarukyan",
+            "name": "Arman Tsarukyan",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Armenia",
+            "flag": "🇦🇲",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "charles-oliveira",
+            "name": "Charles Oliveira",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "max-holloway",
+            "name": "Max Holloway",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "paddy-pimblett",
+            "name": "Paddy Pimblett",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "benoit-saint-denis",
+            "name": "Benoît Saint Denis",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "mauricio-ruffy",
+            "name": "Mauricio Ruffy",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "quillan-salkilld",
+            "name": "Quillan Salkilld",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "salahdine-parnasse",
+            "name": "Salahdine Parnasse",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "rafael-fiziev",
+            "name": "Rafael Fiziev",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Kyrgyzstan",
+            "flag": "🇰🇬",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "mateusz-gamrot",
+            "name": "Mateusz Gamrot",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Poland",
+            "flag": "🇵🇱",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "renato-moicano",
+            "name": "Renato Moicano",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "dan-hooker",
+            "name": "Dan Hooker",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "tom-nolan",
+            "name": "Tom Nolan",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "beneil-dariush",
+            "name": "Beneil Dariush",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Iran",
+            "flag": null,
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "mens-pound-for-pound-top-rank": {
+        "label": "Men's Pound-for-Pound Top Rank",
+        "entries": [
+          {
+            "slug": "islam-makhachev",
+            "name": "Islam Makhachev",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "alexander-volkanovski",
+            "name": "Alexander Volkanovski",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "petr-yan",
+            "name": "Petr Yan",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "justin-gaethje",
+            "name": "Justin Gaethje",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "ilia-topuria",
+            "name": "Ilia Topuria",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "tom-aspinall",
+            "name": "Tom Aspinall",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "sean-strickland",
+            "name": "Sean Strickland",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "merab-dvalishvili",
+            "name": "Merab Dvalishvili",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Georgia",
+            "flag": "🇬🇪",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "alex-pereira",
+            "name": "Alex Pereira",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "ciryl-gane",
+            "name": "Ciryl Gane",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "joshua-van",
+            "name": "Joshua Van",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Myanmar",
+            "flag": "🇲🇲",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "khamzat-chimaev",
+            "name": "Khamzat Chimaev",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": null,
+            "flag": null,
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "alexandre-pantoja",
+            "name": "Alexandre Pantoja",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "arman-tsarukyan",
+            "name": "Arman Tsarukyan",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Armenia",
+            "flag": "🇦🇲",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "charles-oliveira",
+            "name": "Charles Oliveira",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "middleweight": {
+        "label": "Middleweight",
+        "entries": [
+          {
+            "slug": "sean-strickland",
+            "name": "Sean Strickland",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "khamzat-chimaev",
+            "name": "Khamzat Chimaev",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": null,
+            "flag": null,
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "dricus-du-plessis",
+            "name": "Dricus Du Plessis",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "South Africa",
+            "flag": "🇿🇦",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "nassourdine-imavov",
+            "name": "Nassourdine Imavov",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "brendan-allen",
+            "name": "Brendan Allen",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "caio-borralho",
+            "name": "Caio Borralho",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "joe-pyfer",
+            "name": "Joe Pyfer",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "gregory-rodrigues",
+            "name": "Gregory Rodrigues",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "anthony-hernandez",
+            "name": "Anthony Hernandez",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "israel-adesanya",
+            "name": "Israel Adesanya",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Nigeria",
+            "flag": "🇳🇬",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "christian-leroy-duncan",
+            "name": "Christian Leroy Duncan",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "jared-cannonier",
+            "name": "Jared Cannonier",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "abus-magomedov",
+            "name": "Abus Magomedov",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "ikram-aliskerov",
+            "name": "Ikram Aliskerov",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "bo-nickal",
+            "name": "Bo Nickal",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "shara-magomedov",
+            "name": "Shara Magomedov",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "welterweight": {
+        "label": "Welterweight",
+        "entries": [
+          {
+            "slug": "islam-makhachev",
+            "name": "Islam Makhachev",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "ian-machado-garry",
+            "name": "Ian Machado Garry",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Ireland",
+            "flag": "🇮🇪",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "carlos-prates",
+            "name": "Carlos Prates",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": null,
+            "flag": null,
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "michael-morales",
+            "name": "Michael Morales",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Ecuador",
+            "flag": "🇪🇨",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "jack-della-maddalena",
+            "name": "Jack Della Maddalena",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "gabriel-bonfim",
+            "name": "Gabriel Bonfim",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "sean-brady",
+            "name": "Sean Brady",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "belal-muhammad",
+            "name": "Belal Muhammad",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "leon-edwards",
+            "name": "Leon Edwards",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Jamaica",
+            "flag": "🇯🇲",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "kamaru-usman",
+            "name": "Kamaru Usman",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Nigeria",
+            "flag": "🇳🇬",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "joaquin-buckley",
+            "name": "Joaquin Buckley",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "yaroslav-amosov",
+            "name": "Yaroslav Amosov",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Ukraine",
+            "flag": "🇺🇦",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "uros-medic",
+            "name": "Uroš Medić",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Serbia",
+            "flag": "🇷🇸",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "mike-malott",
+            "name": "Mike Malott",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "daniel-rodriguez",
+            "name": "Daniel Rodriguez",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "neil-magny",
+            "name": "Neil Magny",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "womens-bantamweight": {
+        "label": "Women's Bantamweight",
+        "entries": [
+          {
+            "slug": "kayla-harrison",
+            "name": "Kayla Harrison",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "julianna-pena",
+            "name": "Julianna Peña",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "raquel-pennington",
+            "name": "Raquel Pennington",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "joselyne-edwards",
+            "name": "Joselyne Edwards",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Panama",
+            "flag": "🇵🇦",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "norma-dumont",
+            "name": "Norma Dumont",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "ailin-perez",
+            "name": "Ailin Perez",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Argentina",
+            "flag": "🇦🇷",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "yana-santos",
+            "name": "Yana Santos",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "luana-santos",
+            "name": "Luana Santos",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "macy-chiasson",
+            "name": "Macy Chiasson",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "jacqueline-cavalcanti",
+            "name": "Jacqueline Cavalcanti",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "karol-rosa",
+            "name": "Karol Rosa",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "bia-mesquita",
+            "name": "Bia Mesquita",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "michelle-montague",
+            "name": "Michelle Montague",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "nora-cornolle",
+            "name": "Nora Cornolle",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "miesha-tate",
+            "name": "Miesha Tate",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "melissa-croden",
+            "name": "Melissa Croden",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "womens-flyweight": {
+        "label": "Women's Flyweight",
+        "entries": [
+          {
+            "slug": "valentina-shevchenko",
+            "name": "Valentina Shevchenko",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Kyrgyzstan",
+            "flag": "🇰🇬",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "natalia-silva",
+            "name": "Natalia Silva",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "manon-fiorot",
+            "name": "Manon Fiorot",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "alexa-grasso",
+            "name": "Alexa Grasso",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "erin-blanchfield",
+            "name": "Erin Blanchfield",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "rose-namajunas",
+            "name": "Rose Namajunas",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "maycee-barber",
+            "name": "Maycee Barber",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "jasmine-jasudavicius",
+            "name": "Jasmine Jasudavicius",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "wang-cong",
+            "name": "Wang Cong",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "tracy-cortez",
+            "name": "Tracy Cortez",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "miranda-maverick",
+            "name": "Miranda Maverick",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "karine-silva",
+            "name": "Karine Silva",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "casey-oneill",
+            "name": "Casey O'Neill",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "eduarda-moura",
+            "name": "Eduarda Moura",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "gabriella-fernandes",
+            "name": "Gabriella Fernandes",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "jj-aldrich",
+            "name": "JJ Aldrich",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "womens-pound-for-pound-top-rank": {
+        "label": "Women's Pound-for-Pound Top Rank",
+        "entries": [
+          {
+            "slug": "valentina-shevchenko",
+            "name": "Valentina Shevchenko",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Kyrgyzstan",
+            "flag": "🇰🇬",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "kayla-harrison",
+            "name": "Kayla Harrison",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "zhang-weili",
+            "name": "Zhang Weili",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "natalia-silva",
+            "name": "Natalia Silva",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "mackenzie-dern",
+            "name": "Mackenzie Dern",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "manon-fiorot",
+            "name": "Manon Fiorot",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "alexa-grasso",
+            "name": "Alexa Grasso",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "erin-blanchfield",
+            "name": "Erin Blanchfield",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "tatiana-suarez",
+            "name": "Tatiana Suarez",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "julianna-pena",
+            "name": "Julianna Peña",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "virna-jandiroba",
+            "name": "Virna Jandiroba",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "rose-namajunas",
+            "name": "Rose Namajunas",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "raquel-pennington",
+            "name": "Raquel Pennington",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "denise-gomes",
+            "name": "Denise Gomes",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "maycee-barber",
+            "name": "Maycee Barber",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "womens-strawweight": {
+        "label": "Women's Strawweight",
+        "entries": [
+          {
+            "slug": "mackenzie-dern",
+            "name": "Mackenzie Dern",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "zhang-weili",
+            "name": "Zhang Weili",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "tatiana-suarez",
+            "name": "Tatiana Suarez",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "virna-jandiroba",
+            "name": "Virna Jandiroba",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "denise-gomes",
+            "name": "Denise Gomes",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "gillian-robertson",
+            "name": "Gillian Robertson",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "yan-xiaonan",
+            "name": "Yan Xiaonan",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "fatima-kline",
+            "name": "Fatima Kline",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "loopy-godinez",
+            "name": "Loopy Godinez",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "alexia-thainara",
+            "name": "Alexia Thainara",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 9
+          }
+        ]
+      }
+    },
+    "meta": {
+      "bantamweight": {
+        "label": "Bantamweight",
+        "entries": [
+          {
+            "slug": "petr-yan",
+            "name": "Petr Yan",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "merab-dvalishvili",
+            "name": "Merab Dvalishvili",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Georgia",
+            "flag": "🇬🇪",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "song-yadong",
+            "name": "Song Yadong",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "sean-omalley",
+            "name": "Sean O'Malley",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "mario-bautista",
+            "name": "Mario Bautista",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "umar-nurmagomedov",
+            "name": "Umar Nurmagomedov",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "cory-sandhagen",
+            "name": "Cory Sandhagen",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "david-martinez",
+            "name": "David Martinez",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "raoni-barcelos",
+            "name": "Raoni Barcelos",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "farid-basharat",
+            "name": "Farid Basharat",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": null,
+            "flag": null,
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "marcus-mcghee",
+            "name": "Marcus McGhee",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "deiveson-figueiredo",
+            "name": "Deiveson Figueiredo",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "charles-jourdain",
+            "name": "Charles Jourdain",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "aiemann-zahabi",
+            "name": "Aiemann Zahabi",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "bryce-mitchell",
+            "name": "Bryce Mitchell",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "montel-jackson",
+            "name": "Montel Jackson",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "featherweight": {
+        "label": "Featherweight",
+        "entries": [
+          {
+            "slug": "alexander-volkanovski",
+            "name": "Alexander Volkanovski",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "movsar-evloev",
+            "name": "Movsar Evloev",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "diego-lopes",
+            "name": "Diego Lopes",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "lerone-murphy",
+            "name": "Lerone Murphy",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "aljamain-sterling",
+            "name": "Aljamain Sterling",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "jean-silva",
+            "name": "Jean Silva",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "arnold-allen",
+            "name": "Arnold Allen",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "pat-sabatini",
+            "name": "Pat Sabatini",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "pavel-andrusca",
+            "name": "Pavel Andrusca",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Moldova",
+            "flag": "🇲🇩",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "youssef-zalal",
+            "name": "Youssef Zalal",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Morocco",
+            "flag": "🇲🇦",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "kevin-vallejos",
+            "name": "Kevin Vallejos",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Argentina",
+            "flag": "🇦🇷",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "melquizael-costa",
+            "name": "Melquizael Costa",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "steve-garcia",
+            "name": "Steve Garcia",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "aaron-pico",
+            "name": "Aaron Pico",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "jamall-emmers",
+            "name": "Jamall Emmers",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "joanderson-brito",
+            "name": "Joanderson Brito",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "flyweight": {
+        "label": "Flyweight",
+        "entries": [
+          {
+            "slug": "joshua-van",
+            "name": "Joshua Van",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Myanmar",
+            "flag": "🇲🇲",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "alexandre-pantoja",
+            "name": "Alexandre Pantoja",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "manel-kape",
+            "name": "Manel Kape",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Angola",
+            "flag": null,
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "brandon-royval",
+            "name": "Brandon Royval",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "tatsuro-taira",
+            "name": "Tatsuro Taira",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "asu-almabayev",
+            "name": "Asu Almabayev",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Kazakhstan",
+            "flag": "🇰🇿",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "loneer-kavanagh",
+            "name": "Lone’er Kavanagh",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "ramazan-temirov",
+            "name": "Ramazan Temirov",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Uzbekistan",
+            "flag": "🇺🇿",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "kyoji-horiguchi",
+            "name": "Kyoji Horiguchi",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "brandon-moreno",
+            "name": "Brandon Moreno",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "amir-albazi",
+            "name": "Amir Albazi",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Iraq",
+            "flag": "🇮🇶",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "su-mudaerji",
+            "name": "Sumudaerji",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "mitch-raposo",
+            "name": "Mitch Raposo",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "rei-tsuruya",
+            "name": "Rei Tsuruya",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "charles-johnson",
+            "name": "Charles Johnson",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "alessandro-costa",
+            "name": "Alessandro Costa",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "heavyweight": {
+        "label": "Heavyweight",
+        "entries": [
+          {
+            "slug": "tom-aspinall",
+            "name": "Tom Aspinall",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "ciryl-gane",
+            "name": "Ciryl Gane",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "alexander-volkov",
+            "name": "Alexander Volkov",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "sergei-pavlovich",
+            "name": "Sergei Pavlovich",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "alex-pereira",
+            "name": "Alex Pereira",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "rizvan-kuniev",
+            "name": "Rizvan Kuniev",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "josh-hokit",
+            "name": "Josh Hokit",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "curtis-blaydes",
+            "name": "Curtis Blaydes",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "waldo-cortes-acosta",
+            "name": "Waldo Cortes Acosta",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Dominican Republic",
+            "flag": "🇩🇴",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "vitor-petrino",
+            "name": "Vitor Petrino",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "mario-pinto",
+            "name": "Mario Pinto",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Portugal",
+            "flag": "🇵🇹",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "valter-walker",
+            "name": "Valter Walker",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "brando-pericic",
+            "name": "Brando Peričić",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "serghei-spivac",
+            "name": "Serghei Spivac",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Moldova",
+            "flag": "🇲🇩",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "mick-parkin",
+            "name": "Mick Parkin",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "shamil-gaziev",
+            "name": "Shamil Gaziev",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "light-heavyweight": {
+        "label": "Light Heavyweight",
+        "entries": [
+          {
+            "slug": "carlos-ulberg",
+            "name": "Carlos Ulberg",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "alex-pereira",
+            "name": "Alex Pereira",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "magomed-ankalaev",
+            "name": "Magomed Ankalaev",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "jiri-prochazka",
+            "name": "Jiří Procházka",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Czechia",
+            "flag": "🇨🇿",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "paulo-costa",
+            "name": "Paulo Costa",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "jamahal-hill",
+            "name": "Jamahal Hill",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "khalil-rountree-jr",
+            "name": "Khalil Rountree Jr.",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "navajo-stirling",
+            "name": "Navajo Stirling",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "dominick-reyes",
+            "name": "Dominick Reyes",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "reinier-de-ridder",
+            "name": "Reinier de Ridder",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Netherlands",
+            "flag": "🇳🇱",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "azamat-murzakanov",
+            "name": "Azamat Murzakanov",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "bogdan-guskov",
+            "name": "Bogdan Guskov",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Uzbekistan",
+            "flag": "🇺🇿",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "robert-whittaker",
+            "name": "Robert Whittaker",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "alonzo-menifield",
+            "name": "Alonzo Menifield",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "johnny-walker",
+            "name": "Johnny Walker",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "muhammad-said",
+            "name": "Muhammad Saidov",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "lightweight": {
+        "label": "Lightweight",
+        "entries": [
+          {
+            "slug": "justin-gaethje",
+            "name": "Justin Gaethje",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "ilia-topuria",
+            "name": "Ilia Topuria",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "arman-tsarukyan",
+            "name": "Arman Tsarukyan",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Armenia",
+            "flag": "🇦🇲",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "charles-oliveira",
+            "name": "Charles Oliveira",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "max-holloway",
+            "name": "Max Holloway",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "paddy-pimblett",
+            "name": "Paddy Pimblett",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "quillan-salkilld",
+            "name": "Quillan Salkilld",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "benoit-saint-denis",
+            "name": "Benoît Saint Denis",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "renato-moicano",
+            "name": "Renato Moicano",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "mateusz-gamrot",
+            "name": "Mateusz Gamrot",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Poland",
+            "flag": "🇵🇱",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "mauricio-ruffy",
+            "name": "Mauricio Ruffy",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "tom-nolan",
+            "name": "Tom Nolan",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "rafael-fiziev",
+            "name": "Rafael Fiziev",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Kyrgyzstan",
+            "flag": "🇰🇬",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "tofiq-musayev",
+            "name": "Tofiq Musayev",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Azerbaijan",
+            "flag": "🇦🇿",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "grant-dawson",
+            "name": "Grant Dawson",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "jalin-turner",
+            "name": "Jalin Turner",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "middleweight": {
+        "label": "Middleweight",
+        "entries": [
+          {
+            "slug": "sean-strickland",
+            "name": "Sean Strickland",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "khamzat-chimaev",
+            "name": "Khamzat Chimaev",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": null,
+            "flag": null,
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "dricus-du-plessis",
+            "name": "Dricus Du Plessis",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "South Africa",
+            "flag": "🇿🇦",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "nassourdine-imavov",
+            "name": "Nassourdine Imavov",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "joe-pyfer",
+            "name": "Joe Pyfer",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "brendan-allen",
+            "name": "Brendan Allen",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "caio-borralho",
+            "name": "Caio Borralho",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "gregory-rodrigues",
+            "name": "Gregory Rodrigues",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "anthony-hernandez",
+            "name": "Anthony Hernandez",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "israel-adesanya",
+            "name": "Israel Adesanya",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Nigeria",
+            "flag": "🇳🇬",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "christian-leroy-duncan",
+            "name": "Christian Leroy Duncan",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "England",
+            "flag": "🇬🇧",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "ikram-aliskerov",
+            "name": "Ikram Aliskerov",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "bo-nickal",
+            "name": "Bo Nickal",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "abus-magomedov",
+            "name": "Abus Magomedov",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "jared-cannonier",
+            "name": "Jared Cannonier",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "shara-magomedov",
+            "name": "Shara Magomedov",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "welterweight": {
+        "label": "Welterweight",
+        "entries": [
+          {
+            "slug": "islam-makhachev",
+            "name": "Islam Makhachev",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "carlos-prates",
+            "name": "Carlos Prates",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": null,
+            "flag": null,
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "ian-machado-garry",
+            "name": "Ian Machado Garry",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Ireland",
+            "flag": "🇮🇪",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "michael-morales",
+            "name": "Michael Morales",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Ecuador",
+            "flag": "🇪🇨",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "jack-della-maddalena",
+            "name": "Jack Della Maddalena",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "sean-brady",
+            "name": "Sean Brady",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "gabriel-bonfim",
+            "name": "Gabriel Bonfim",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "belal-muhammad",
+            "name": "Belal Muhammad",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "leon-edwards",
+            "name": "Leon Edwards",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Jamaica",
+            "flag": "🇯🇲",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "joaquin-buckley",
+            "name": "Joaquin Buckley",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "uros-medic",
+            "name": "Uroš Medić",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Serbia",
+            "flag": "🇷🇸",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "mike-malott",
+            "name": "Mike Malott",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "kamaru-usman",
+            "name": "Kamaru Usman",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Nigeria",
+            "flag": "🇳🇬",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "yaroslav-amosov",
+            "name": "Yaroslav Amosov",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Ukraine",
+            "flag": "🇺🇦",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "kevin-holland",
+            "name": "Kevin Holland",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "daniel-rodriguez",
+            "name": "Daniel Rodriguez",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "womens-bantamweight": {
+        "label": "Women's Bantamweight",
+        "entries": [
+          {
+            "slug": "kayla-harrison",
+            "name": "Kayla Harrison",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "joselyne-edwards",
+            "name": "Joselyne Edwards",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Panama",
+            "flag": "🇵🇦",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "norma-dumont",
+            "name": "Norma Dumont",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "luana-santos",
+            "name": "Luana Santos",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "ailin-perez",
+            "name": "Ailin Perez",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Argentina",
+            "flag": "🇦🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "julianna-pena",
+            "name": "Julianna Peña",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "yana-santos",
+            "name": "Yana Santos",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "jacqueline-cavalcanti",
+            "name": "Jacqueline Cavalcanti",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "michelle-montague",
+            "name": "Michelle Montague",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "melissa-croden",
+            "name": "Melissa Croden",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "karol-rosa",
+            "name": "Karol Rosa",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "bia-mesquita",
+            "name": "Bia Mesquita",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "nora-cornolle",
+            "name": "Nora Cornolle",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "macy-chiasson",
+            "name": "Macy Chiasson",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "dariya-zheleznyakova",
+            "name": "Daria Zhelezniakova",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "raquel-pennington",
+            "name": "Raquel Pennington",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "womens-flyweight": {
+        "label": "Women's Flyweight",
+        "entries": [
+          {
+            "slug": "valentina-shevchenko",
+            "name": "Valentina Shevchenko",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "Kyrgyzstan",
+            "flag": "🇰🇬",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "natalia-silva",
+            "name": "Natalia Silva",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "alexa-grasso",
+            "name": "Alexa Grasso",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "erin-blanchfield",
+            "name": "Erin Blanchfield",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "manon-fiorot",
+            "name": "Manon Fiorot",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "France",
+            "flag": "🇫🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "zhang-weili",
+            "name": "Zhang Weili",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "wang-cong",
+            "name": "Wang Cong",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "jasmine-jasudavicius",
+            "name": "Jasmine Jasudavicius",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "rose-namajunas",
+            "name": "Rose Namajunas",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "maycee-barber",
+            "name": "Maycee Barber",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "tracy-cortez",
+            "name": "Tracy Cortez",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "miranda-maverick",
+            "name": "Miranda Maverick",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "regina-malpica-rivera",
+            "name": "Regina Tarin",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "karine-silva",
+            "name": "Karine Silva",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "eduarda-moura",
+            "name": "Eduarda Moura",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "carli-judice",
+            "name": "Carli Judice",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      },
+      "womens-strawweight": {
+        "label": "Women's Strawweight",
+        "entries": [
+          {
+            "slug": "mackenzie-dern",
+            "name": "Mackenzie Dern",
+            "rankText": "C",
+            "rank": null,
+            "champion": true,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": null
+          },
+          {
+            "slug": "zhang-weili",
+            "name": "Zhang Weili",
+            "rankText": "1",
+            "rank": 1,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 1
+          },
+          {
+            "slug": "virna-jandiroba",
+            "name": "Virna Jandiroba",
+            "rankText": "2",
+            "rank": 2,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 2
+          },
+          {
+            "slug": "tatiana-suarez",
+            "name": "Tatiana Suarez",
+            "rankText": "3",
+            "rank": 3,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 3
+          },
+          {
+            "slug": "denise-gomes",
+            "name": "Denise Gomes",
+            "rankText": "4",
+            "rank": 4,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 4
+          },
+          {
+            "slug": "gillian-robertson",
+            "name": "Gillian Robertson",
+            "rankText": "5",
+            "rank": 5,
+            "champion": false,
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "movement": "same",
+            "previousRank": 5
+          },
+          {
+            "slug": "fatima-kline",
+            "name": "Fatima Kline",
+            "rankText": "6",
+            "rank": 6,
+            "champion": false,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "movement": "same",
+            "previousRank": 6
+          },
+          {
+            "slug": "alexia-thainara",
+            "name": "Alexia Thainara",
+            "rankText": "7",
+            "rank": 7,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 7
+          },
+          {
+            "slug": "piera-rodriguez",
+            "name": "Piera Rodriguez",
+            "rankText": "8",
+            "rank": 8,
+            "champion": false,
+            "country": "Venezuela",
+            "flag": "🇻🇪",
+            "movement": "same",
+            "previousRank": 8
+          },
+          {
+            "slug": "yan-xiaonan",
+            "name": "Yan Xiaonan",
+            "rankText": "9",
+            "rank": 9,
+            "champion": false,
+            "country": "China",
+            "flag": "🇨🇳",
+            "movement": "same",
+            "previousRank": 9
+          },
+          {
+            "slug": "mizuki-inoue",
+            "name": "Mizuki",
+            "rankText": "10",
+            "rank": 10,
+            "champion": false,
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "movement": "same",
+            "previousRank": 10
+          },
+          {
+            "slug": "loopy-godinez",
+            "name": "Loopy Godinez",
+            "rankText": "11",
+            "rank": 11,
+            "champion": false,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "movement": "same",
+            "previousRank": 11
+          },
+          {
+            "slug": "tabatha-ricci",
+            "name": "Tabatha Ricci",
+            "rankText": "12",
+            "rank": 12,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 12
+          },
+          {
+            "slug": "jaqueline-amorim",
+            "name": "Jaqueline Amorim",
+            "rankText": "13",
+            "rank": 13,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 13
+          },
+          {
+            "slug": "talita-alencar",
+            "name": "Talita Alencar",
+            "rankText": "14",
+            "rank": 14,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 14
+          },
+          {
+            "slug": "amanda-lemos",
+            "name": "Amanda Lemos",
+            "rankText": "15",
+            "rank": 15,
+            "champion": false,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "movement": "same",
+            "previousRank": 15
+          }
+        ]
+      }
+    }
+  }
+}

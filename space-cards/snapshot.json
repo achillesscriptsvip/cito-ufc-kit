@@ -1,0 +1,1825 @@
+{
+  "generatedAt": "2026-09-15T22:17:09.377Z",
+  "source": "Cito UFC API",
+  "sourceUrl": "https://citoapi.com/ufc-api/",
+  "docs": "https://citoapi.com/docs/api/ufc/",
+  "upcoming": [
+    {
+      "slug": "dwcs-10-6",
+      "title": "Dana White's Contender Series 10.6",
+      "shortTitle": "DWCS 10.6",
+      "startsAt": "2026-09-15T23:00:00.000Z",
+      "venue": "Meta Apex",
+      "location": "Meta Apex, Las Vegas, Nevada, USA",
+      "status": "scheduled",
+      "image": null,
+      "isContenderSeries": true,
+      "card": [
+        {
+          "id": "13126",
+          "weightClass": "Welterweight",
+          "section": "Main",
+          "order": 1,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "mayton-perea",
+              "name": "Mayton Perea",
+              "corner": "blue",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "zevan-hunt",
+              "name": "Zevan Hunt",
+              "corner": "red",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "13127",
+          "weightClass": "Middleweight",
+          "section": "Main",
+          "order": 2,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "igor-cavalcanti",
+              "name": "Igor Cavalcanti",
+              "corner": "blue",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "oscar-ravello",
+              "name": "Oscar Ravello",
+              "corner": "red",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "13128",
+          "weightClass": "Lightweight",
+          "section": "Main",
+          "order": 3,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "akbar-abdullaev",
+              "name": "Akbar Abdullaev",
+              "corner": "blue",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "ednilson-santos",
+              "name": "Ednilson Santos",
+              "corner": "red",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "13129",
+          "weightClass": "Middleweight",
+          "section": "Main",
+          "order": 4,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "hugo-guillon",
+              "name": "Hugo Guillon",
+              "corner": "blue",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "luis-hernandez",
+              "name": "Luis Hernandez",
+              "corner": "red",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "13130",
+          "weightClass": "Featherweight",
+          "section": "Main",
+          "order": 5,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "antonio-monteiro",
+              "name": "Antonio Monteiro",
+              "corner": "blue",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "tyshawn-williams",
+              "name": "Tyshawn Williams",
+              "corner": "red",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cryptocom-ufc-331",
+      "title": "Crypto.com UFC 331",
+      "shortTitle": "Crypto.com UFC 331",
+      "startsAt": "2026-09-20T01:00:00.000Z",
+      "venue": "Crypto.com Arena",
+      "location": "Crypto.com Arena, Los Angeles United States",
+      "status": "scheduled",
+      "image": "https://ufc.com/images/styles/background_image_sm/s3/2026-08/091926-ufc-331-van-vs-pantoja-2-EVENT-ART.jpg?h=d1cb525d&itok=7PimniVq",
+      "isContenderSeries": false,
+      "card": [
+        {
+          "id": "cryptocom-ufc-331-jsonapi-13",
+          "weightClass": "Flyweight Title",
+          "section": "Main Card",
+          "order": 1001,
+          "status": "confirmed",
+          "titleBout": true,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "alexandre-pantoja",
+              "name": "Alexandre Pantoja",
+              "corner": "blue",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-07/PANTOJA_ALEXANDRE_R_07-08.png?itok=Zje0cPYV"
+            },
+            {
+              "slug": "joshua-van",
+              "name": "Joshua Van",
+              "corner": "red",
+              "rank": null,
+              "country": "Myanmar",
+              "flag": "🇲🇲",
+              "champion": true,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/VAN_JOSHUA_L_BELT_05-09.png?itok=WS-OTlne"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-12",
+          "weightClass": "Lightweight",
+          "section": "Main Card",
+          "order": 1002,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "mauricio-ruffy",
+              "name": "Mauricio Ruffy",
+              "corner": "blue",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/RUFFY_MAURICIO_R_01-31.png?itok=QAWm9rTP"
+            },
+            {
+              "slug": "arman-tsarukyan",
+              "name": "Arman Tsarukyan",
+              "corner": "red",
+              "rank": null,
+              "country": "Armenia",
+              "flag": "🇦🇲",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/TSARUKYAN_ARMAN_L_11-22.png?itok=rkovoseh"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-4",
+          "weightClass": "Featherweight",
+          "section": "Main Card",
+          "order": 1003,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "dooho-choi",
+              "name": "Dooho Choi",
+              "corner": "blue",
+              "rank": null,
+              "country": "South Korea",
+              "flag": "🇰🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-12/CHOI_DOOHO_R_12-07.png?itok=lhbxz1pq"
+            },
+            {
+              "slug": "patricio-freire",
+              "name": "Patricio Pitbull",
+              "corner": "red",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/PITBULL_PATRICIO_L_04-11.png?itok=XjZvtIWm"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-6",
+          "weightClass": "Light Heavyweight",
+          "section": "Main Card",
+          "order": 1004,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "iwo-baraniewski",
+              "name": "Iwo Baraniewski",
+              "corner": "blue",
+              "rank": null,
+              "country": "Poland",
+              "flag": "🇵🇱",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BARANIEWSKI_IWO_L_06-06.png?itok=IiThUhLf"
+            },
+            {
+              "slug": "alonzo-menifield",
+              "name": "Alonzo Menifield",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/MENIFIELD_ALONZO_L_06-14.png?itok=8h__B8G_"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-11",
+          "weightClass": "Heavyweight",
+          "section": "Main Card",
+          "order": 1005,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "sean-sharaf",
+              "name": "Sean Sharaf",
+              "corner": "blue",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/SHERAF_SEAN_R_10-12.png?itok=SmbohjIz"
+            },
+            {
+              "slug": "gable-steveson",
+              "name": "Gable Steveson",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/STEVESON_GABLE_L_07-11.png?itok=eh09qXrC"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-7",
+          "weightClass": "Bantamweight",
+          "section": "Prelims",
+          "order": 2001,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "charles-jourdain",
+              "name": "Charles Jourdain",
+              "corner": "blue",
+              "rank": null,
+              "country": "Canada",
+              "flag": "🇨🇦",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/JOURDAIN_CHARLES_R_04-18.png?itok=tyGAlLlk"
+            },
+            {
+              "slug": "marlon-vera",
+              "name": "Marlon Vera",
+              "corner": "red",
+              "rank": null,
+              "country": "Ecuador",
+              "flag": "🇪🇨",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/VERA_MARLON_L_02-28.png?itok=K4ahOSrr"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-10",
+          "weightClass": "Heavyweight",
+          "section": "Prelims",
+          "order": 2002,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "robelis-despaigne",
+              "name": "Robelis Despaigne",
+              "corner": "blue",
+              "rank": null,
+              "country": "Cuba",
+              "flag": "🇨🇺",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/5/DESPAIGNE_ROBELIS_R_05-11.png?itok=FgXOmyqc"
+            },
+            {
+              "slug": "tai-tuivasa",
+              "name": "Tai Tuivasa",
+              "corner": "red",
+              "rank": null,
+              "country": "Australia",
+              "flag": "🇦🇺",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/TUIVASA_TAI_L_05-02.png?itok=3ekvdGCe"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-1",
+          "weightClass": "Featherweight",
+          "section": "Prelims",
+          "order": 2003,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "joosang-yoo",
+              "name": "JooSang Yoo",
+              "corner": "blue",
+              "rank": null,
+              "country": "South Korea",
+              "flag": "🇰🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/YOO_JOOSANG_R_10-04.png?itok=bbJUIynV"
+            },
+            {
+              "slug": "michael-aswell-jr",
+              "name": "Michael Aswell Jr.",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/ASWELL_MICHAEL_R_05-31.png?itok=VKUNR9ki"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-9",
+          "weightClass": "Middleweight",
+          "section": "Prelims",
+          "order": 2004,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "ozzy-diaz",
+              "name": "Ozzy Diaz",
+              "corner": "blue",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/DIAZ_OZZY_R_03-08.png?itok=g7iPOGWX"
+            },
+            {
+              "slug": "ryan-gandra",
+              "name": "Ryan Gandra",
+              "corner": "red",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/GANDRA_RYAN_L_07-11.png?itok=xoxQFG0M"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-2",
+          "weightClass": "Middleweight",
+          "section": "Early Prelims",
+          "order": 3001,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "brunno-ferreira",
+              "name": "Brunno Ferreira",
+              "corner": "blue",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/FERREIRA_BRUNNO_R_06-27.png?itok=CudkD89g"
+            },
+            {
+              "slug": "edmen-shahbazyan",
+              "name": "Edmen Shahbazyan",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/SHAHBAZYAN_EDMEN_L_10-04.png?itok=hqRUlp19"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-3",
+          "weightClass": "Women's Flyweight",
+          "section": "Early Prelims",
+          "order": 3002,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "eduarda-moura",
+              "name": "Eduarda Moura",
+              "corner": "blue",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/MOURA_EDUARDA_R_02-07.png?itok=M5PjPYkd"
+            },
+            {
+              "slug": "casey-oneill",
+              "name": "Casey O'Neill",
+              "corner": "red",
+              "rank": null,
+              "country": "Australia",
+              "flag": "🇦🇺",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ONEILL_CASEY_L_03-28.png?itok=ZrEDw-y2"
+            }
+          ]
+        },
+        {
+          "id": "cryptocom-ufc-331-jsonapi-5",
+          "weightClass": "Featherweight",
+          "section": "Early Prelims",
+          "order": 3003,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "joanderson-brito",
+              "name": "Joanderson Brito",
+              "corner": "blue",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BRITO_JOANDERSON_R_06-06.png?itok=wK68doxT"
+            },
+            {
+              "slug": "giga-chikadze",
+              "name": "Giga Chikadze",
+              "corner": "red",
+              "rank": null,
+              "country": "Georgia",
+              "flag": "🇬🇪",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/CHIKADZE_GIGA_L_12-13.png?itok=V2thPb8Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dwcs-10-7",
+      "title": "Dana White's Contender Series 10.7",
+      "shortTitle": "DWCS 10.7",
+      "startsAt": "2026-09-22T23:00:00.000Z",
+      "venue": "Meta Apex",
+      "location": "Meta Apex, Las Vegas, Nevada, USA",
+      "status": "scheduled",
+      "image": null,
+      "isContenderSeries": true,
+      "card": []
+    },
+    {
+      "slug": "ufc-fight-night-september-26-2026",
+      "title": "UFC Fight Night: Rosas Jr. vs Barcelos",
+      "shortTitle": "Rosas Jr. vs Barcelos",
+      "startsAt": "2026-09-27T00:00:00.000Z",
+      "venue": "Meta APEX",
+      "location": "Meta APEX, Las Vegas United States",
+      "status": "scheduled",
+      "image": "https://ufc.com/images/styles/background_image_sm/s3/2026-09/091026-ufc-fight-night-rosas-jr-vs-barcelos-EVENT-ART.jpg?h=d1cb525d&itok=7RHDKLRe",
+      "isContenderSeries": false,
+      "card": [
+        {
+          "id": "fight-night-september-26-2026-raoni-barcelos-raul-rosas-jr",
+          "weightClass": "Bantamweight",
+          "section": "Main Card",
+          "order": 1001,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "raoni-barcelos",
+              "name": "Raoni Barcelos",
+              "corner": "blue",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/BARCELOS_RAONI_R_04-25.png?itok=Ylns3N1J"
+            },
+            {
+              "slug": "raul-rosas-jr",
+              "name": "Raul Rosas Jr.",
+              "corner": "red",
+              "rank": null,
+              "country": "Mexico",
+              "flag": "🇲🇽",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/ROSAS_JR_RAUL_L_03-29.png?itok=2Lx20dNt"
+            }
+          ]
+        },
+        {
+          "id": "uuid-005d0b9a-b071-4a9c-97fa-4d1296224d57",
+          "weightClass": "Middleweight",
+          "section": "Main Card",
+          "order": 1002,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "robert-bryczek",
+              "name": "Robert Bryczek",
+              "corner": "blue",
+              "rank": null,
+              "country": "Poland",
+              "flag": "🇵🇱",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/BRYZCEK_ROBERT_R_05-02.png?itok=vAIBw6xs"
+            },
+            {
+              "slug": "rodolfo-vieira",
+              "name": "Rodolfo Vieira",
+              "corner": "red",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/VIEIRA_RODOLFO_L_04-25.png?itok=wu2rJ2xD"
+            }
+          ]
+        },
+        {
+          "id": "uuid-c9f5316a-afb7-48a3-b7eb-f72c230eeb30",
+          "weightClass": "Bantamweight",
+          "section": "Main Card",
+          "order": 1003,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "rinya-nakamura",
+              "name": "Rinya Nakamura",
+              "corner": "blue",
+              "rank": null,
+              "country": "Japan",
+              "flag": "🇯🇵",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-02/NAKAMURA_RINYA_R_02-04.png?itok=Z46l1C6Q"
+            },
+            {
+              "slug": "brady-hiestand",
+              "name": "Brady Hiestand",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-04/HIESTAND_BRADY_L_04-22.png?itok=Ykvj5KuR"
+            }
+          ]
+        },
+        {
+          "id": "uuid-22ae1a0a-af77-484d-a36f-f4086ada0a52",
+          "weightClass": "Bantamweight",
+          "section": "Main Card",
+          "order": 1004,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "ilimbek-akylbek",
+              "name": "Ilimbek Akylbek",
+              "corner": "blue",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D"
+            },
+            {
+              "slug": "mehemmedeli-osmanli",
+              "name": "Mehemmedeli Osmanli",
+              "corner": "red",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_RED.png?VersionId=0NwYm4ow5ym9PWjgcpd05ObDBIC5pBtX&itok=CFBkG7gS"
+            }
+          ]
+        },
+        {
+          "id": "uuid-8d4cbc36-5d5c-4a72-b36e-c9f8a54f6206",
+          "weightClass": "Women's Strawweight",
+          "section": "Main Card",
+          "order": 1005,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "valesca-machado",
+              "name": "Valesca Machado",
+              "corner": "blue",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2021-10/71799%252Fprofile-galery%252Ffullbodyright-picture%252FMACHADO_VALESCA_R.png?itok=JR_GYUCp"
+            },
+            {
+              "slug": "melissa-amaya",
+              "name": "Melissa Amaya",
+              "corner": "red",
+              "rank": null,
+              "country": null,
+              "flag": null,
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/2022-02/womens-silhouette-RED-corner.png?itok=19Mm2aKC"
+            }
+          ]
+        },
+        {
+          "id": "uuid-cbdd4a00-590a-4f90-89a2-8f64a98cf129",
+          "weightClass": "Lightweight",
+          "section": "Main Card",
+          "order": 1006,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "elves-brener",
+              "name": "Elves Brener",
+              "corner": "blue",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-08/BRENNER_ELVES_R_08-03.png?itok=nDoyeDiy"
+            },
+            {
+              "slug": "josiah-harrell",
+              "name": "Josiah Harrell",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-07/HARRELL_JOSIAH_L_07-08.png?itok=ulflvLgz"
+            }
+          ]
+        },
+        {
+          "id": "uuid-0a7645ea-4dd4-4e2d-80bc-56fe9088aa22",
+          "weightClass": "Light Heavyweight",
+          "section": "Prelims",
+          "order": 2001,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "christian-edwards",
+              "name": "Christian Edwards",
+              "corner": "blue",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/EDWARDS_CHRISTIAN_R_05-16.png?itok=u6kieGxg"
+            },
+            {
+              "slug": "rodolfo-bellato",
+              "name": "Rodolfo Bellato",
+              "corner": "red",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/BELLATO_RODOLFO_L.png?itok=p0TMDzxL"
+            }
+          ]
+        },
+        {
+          "id": "uuid-d4759c3d-5f70-47c6-a9dd-d3131122f261",
+          "weightClass": "Bantamweight",
+          "section": "Prelims",
+          "order": 2002,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "ricky-simon",
+              "name": "Ricky Simon",
+              "corner": "blue",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/SIMON_RICKY_R_06-29.png?itok=jr2lPLOJ"
+            },
+            {
+              "slug": "montel-jackson",
+              "name": "Montel Jackson",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/JACKSON_MONTEL_L_04-25.png?itok=yyPXKtq8"
+            }
+          ]
+        },
+        {
+          "id": "uuid-ada1f144-8384-4d34-8c91-d732c067bcfa",
+          "weightClass": "Bantamweight",
+          "section": "Prelims",
+          "order": 2003,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "heili-alateng",
+              "name": "Alatengheili",
+              "corner": "blue",
+              "rank": null,
+              "country": "China",
+              "flag": "🇨🇳",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/ALATENGHEILI_R_04-26.png?itok=MzfEm4mB"
+            },
+            {
+              "slug": "john-castaneda",
+              "name": "John Castaneda",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/CASTANEDA_JOHN_L_04-18.png?itok=VbRTGXsX"
+            }
+          ]
+        },
+        {
+          "id": "uuid-74db7c2f-bbae-4d05-9a08-3efd894ecb91",
+          "weightClass": "Women's Bantamweight",
+          "section": "Prelims",
+          "order": 2004,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "ailin-perez",
+              "name": "Ailin Perez",
+              "corner": "blue",
+              "rank": null,
+              "country": "Argentina",
+              "flag": "🇦🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/7/PEREZ_AILIN_R_01-18.png?itok=9XiXSeQF"
+            },
+            {
+              "slug": "norma-dumont",
+              "name": "Norma Dumont",
+              "corner": "red",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/DUMONT_NORMA_L_04-25.png?itok=C_y-J4nN"
+            }
+          ]
+        },
+        {
+          "id": "uuid-20bfb56b-ff68-4353-ae02-9802db63d876",
+          "weightClass": "Women's Strawweight",
+          "section": "Prelims",
+          "order": 2005,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "yazmin-jauregui",
+              "name": "Yazmin Jauregui",
+              "corner": "blue",
+              "rank": null,
+              "country": "Mexico",
+              "flag": "🇲🇽",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-02/JAUREGUI_YAZMIN_R_02-24.png?itok=4C_17jp-"
+            },
+            {
+              "slug": "vanessa-demopoulos",
+              "name": "Vanessa Demopoulos",
+              "corner": "red",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/DEMOPOULOS_VANESSA_L_04-05.png?itok=VLjHgxVq"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dwcs-10-8",
+      "title": "Dana White's Contender Series 10.8",
+      "shortTitle": "DWCS 10.8",
+      "startsAt": "2026-09-29T23:00:00.000Z",
+      "venue": "Meta Apex",
+      "location": "Meta Apex, Las Vegas, Nevada, USA",
+      "status": "scheduled",
+      "image": null,
+      "isContenderSeries": true,
+      "card": []
+    },
+    {
+      "slug": "ufc-332",
+      "title": "UFC 332",
+      "shortTitle": "UFC 332",
+      "startsAt": "2026-10-04T00:00:00.000Z",
+      "venue": "Delta Center",
+      "location": "Delta Center, Salt Lake City United States",
+      "status": "scheduled",
+      "image": "https://ufc.com/images/styles/background_image_sm/s3/2026-09/100326-ufc-332-silva-vs-cong-TEMP-HERO.jpg?h=d1cb525d&itok=Q_MuYCid",
+      "isContenderSeries": false,
+      "card": [
+        {
+          "id": "13120",
+          "weightClass": "Women's Flyweight Title",
+          "section": "Main Card",
+          "order": 1001,
+          "status": "confirmed",
+          "titleBout": true,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "wang-cong",
+              "name": "Wang Cong",
+              "corner": "blue",
+              "rank": null,
+              "country": "China",
+              "flag": "🇨🇳",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CONG_WANG_R_07-11.png?itok=Vg-5jO1x"
+            },
+            {
+              "slug": "natalia-silva",
+              "name": "Natalia Silva",
+              "corner": "red",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SILVA_NATALIA_L_01-24.png?itok=Qy3gFmB9"
+            }
+          ]
+        },
+        {
+          "id": "uuid-26dd50d9-0bbb-4820-9663-e72855e303be",
+          "weightClass": null,
+          "section": "Main Card",
+          "order": 1002,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "andrey-pulyaev",
+              "name": "Andrey Pulyaev",
+              "corner": "blue",
+              "rank": null,
+              "country": "Russia",
+              "flag": "🇷🇺",
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "damian-pinas",
+              "name": "Damian Pinas",
+              "corner": "red",
+              "rank": null,
+              "country": "Suriname",
+              "flag": null,
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "uuid-afea4bde-b17d-4623-a866-30b005aea5e4",
+          "weightClass": null,
+          "section": "Main Card",
+          "order": 1003,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "alden-coria",
+              "name": "Alden Coria",
+              "corner": "blue",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "imanol-rodriguez",
+              "name": "Imanol Rodriguez",
+              "corner": "red",
+              "rank": null,
+              "country": "Mexico",
+              "flag": "🇲🇽",
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "uuid-198bcd07-f39b-4ec1-a3ff-47714c662bad",
+          "weightClass": null,
+          "section": "Main Card",
+          "order": 1004,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "roman-kopylov",
+              "name": "Roman Kopylov",
+              "corner": "blue",
+              "rank": null,
+              "country": "Russia",
+              "flag": "🇷🇺",
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "ateba-gautier",
+              "name": "Ateba Gautier",
+              "corner": "red",
+              "rank": null,
+              "country": "Cameroon",
+              "flag": null,
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "uuid-0aaacf30-5e2d-4cc3-877e-ab53e1c6361c",
+          "weightClass": null,
+          "section": "Main Card",
+          "order": 1005,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "ismail-naurdiev",
+              "name": "Ismail Naurdiev",
+              "corner": "blue",
+              "rank": null,
+              "country": "Morocco",
+              "flag": "🇲🇦",
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "marvin-vettori",
+              "name": "Marvin Vettori",
+              "corner": "red",
+              "rank": null,
+              "country": "Italy",
+              "flag": "🇮🇹",
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "uuid-dc977380-611c-4736-935a-4276673f1b21",
+          "weightClass": null,
+          "section": "Main Card",
+          "order": 1006,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "mick-parkin",
+              "name": "Mick Parkin",
+              "corner": "blue",
+              "rank": null,
+              "country": "England",
+              "flag": "🇬🇧",
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "johnny-walker",
+              "name": "Johnny Walker",
+              "corner": "red",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "uuid-f0090fd6-43f2-4820-ba84-ac9ec5ee8c78",
+          "weightClass": null,
+          "section": "Main Card",
+          "order": 1007,
+          "status": "confirmed",
+          "titleBout": false,
+          "cancelled": false,
+          "method": null,
+          "round": null,
+          "time": null,
+          "winner": null,
+          "hasStats": false,
+          "corners": [
+            {
+              "slug": "payton-talbott",
+              "name": "Payton Talbott",
+              "corner": "blue",
+              "rank": null,
+              "country": "United States",
+              "flag": "🇺🇸",
+              "champion": false,
+              "image": null
+            },
+            {
+              "slug": "deiveson-figueiredo",
+              "name": "Deiveson Figueiredo",
+              "corner": "red",
+              "rank": null,
+              "country": "Brazil",
+              "flag": "🇧🇷",
+              "champion": false,
+              "image": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recent": {
+    "slug": "ufc-fight-night-september-12-2026",
+    "title": "Noche UFC",
+    "shortTitle": "Noche UFC",
+    "startsAt": "2026-09-12T21:00:00.000Z",
+    "venue": "Desert Diamond Arena",
+    "location": "Desert Diamond Arena, Glendale United States",
+    "status": "completed",
+    "image": "https://ufc.com/images/styles/background_image_sm/s3/2026-08/091226-ufc-fight-night-silva-vs-delgado-EVENT-ART.jpg?h=d1cb525d&itok=D2248TxU",
+    "isContenderSeries": false,
+    "card": [
+      {
+        "id": "13008",
+        "weightClass": "Featherweight",
+        "section": "Main Card",
+        "order": 1001,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Submission",
+        "round": 3,
+        "time": "2:57",
+        "winner": "jean-silva",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "jose-miguel-delgado",
+            "name": "Jose Miguel Delgado",
+            "corner": "blue",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/DELGADO_JOSE_MIGUEL_R_09-12.png?itok=2fFHrBCS"
+          },
+          {
+            "slug": "jean-silva",
+            "name": "Jean Silva",
+            "corner": "red",
+            "rank": null,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/SILVA_JEAN_L_09-12.png?itok=T3yvZbWY"
+          }
+        ]
+      },
+      {
+        "id": "12977",
+        "weightClass": "Flyweight",
+        "section": "Main Card",
+        "order": 1002,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Split",
+        "round": 3,
+        "time": "5:00",
+        "winner": "brandon-moreno",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "joseph-morales",
+            "name": "Joseph Morales",
+            "corner": "blue",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MORALES_JOSEPH_R_09-12.png?itok=HTvvpCnT"
+          },
+          {
+            "slug": "brandon-moreno",
+            "name": "Brandon Moreno",
+            "corner": "red",
+            "rank": null,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MORENO_BRANDON_L_09-12.png?itok=ot9Qm8dd"
+          }
+        ]
+      },
+      {
+        "id": "fight-night-september-12-2026-marwan-rahiki-tommy-mcmillen",
+        "weightClass": "Featherweight",
+        "section": "Main Card",
+        "order": 1003,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Unanimous",
+        "round": 3,
+        "time": "5:00",
+        "winner": "tommy-mcmillen",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "marwan-rahiki",
+            "name": "Marwan Rahiki",
+            "corner": "blue",
+            "rank": null,
+            "country": "Morocco",
+            "flag": "🇲🇦",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/RAHIKI_MARWAN_R_09-12.png?itok=MInwzBE7"
+          },
+          {
+            "slug": "tommy-mcmillen",
+            "name": "Tommy McMillen",
+            "corner": "red",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MCMILLEN_TOMMY_L_09-12.png?itok=XZAHh6Lg"
+          }
+        ]
+      },
+      {
+        "id": "12976",
+        "weightClass": "Women's Flyweight",
+        "section": "Main Card",
+        "order": 1004,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Unanimous",
+        "round": 3,
+        "time": "5:00",
+        "winner": "alexa-grasso",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "alexa-grasso",
+            "name": "Alexa Grasso",
+            "corner": "blue",
+            "rank": null,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/GRASSO_ALEXA_R_09-12.png?itok=WnfP9KIB"
+          },
+          {
+            "slug": "manon-fiorot",
+            "name": "Manon Fiorot",
+            "corner": "red",
+            "rank": null,
+            "country": "France",
+            "flag": "🇫🇷",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/FIOROT_MANON_L_09-12.png?itok=VG4Yzh6j"
+          }
+        ]
+      },
+      {
+        "id": "12975",
+        "weightClass": "Heavyweight",
+        "section": "Main Card",
+        "order": 1005,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Unanimous",
+        "round": 3,
+        "time": "5:00",
+        "winner": "curtis-blaydes",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "curtis-blaydes",
+            "name": "Curtis Blaydes",
+            "corner": "blue",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/BLAYDES_CURTIS_R_09-12.png?itok=hrU5rCtK"
+          },
+          {
+            "slug": "waldo-cortes-acosta",
+            "name": "Waldo Cortes Acosta",
+            "corner": "red",
+            "rank": null,
+            "country": "Dominican Republic",
+            "flag": "🇩🇴",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CORTES_ACOSTA_WALDO_L_09-12.png?itok=xe7OyefZ"
+          }
+        ]
+      },
+      {
+        "id": "13000",
+        "weightClass": "Bantamweight",
+        "section": "Main Card",
+        "order": 1006,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Unanimous",
+        "round": 3,
+        "time": "5:00",
+        "winner": "david-martinez",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "dan-ige",
+            "name": "Dan Ige",
+            "corner": "blue",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/IGE_DAN_R_10-26.png?itok=zLjglCVv"
+          },
+          {
+            "slug": "david-martinez",
+            "name": "David Martinez",
+            "corner": "red",
+            "rank": null,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MARTINEZ_DAVID_L_09-12.png?itok=dp_d0HOf"
+          }
+        ]
+      },
+      {
+        "id": "12978",
+        "weightClass": "Catchweight",
+        "section": "Prelims",
+        "order": 2001,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Unanimous",
+        "round": 3,
+        "time": "5:00",
+        "winner": "tim-elliott",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "edgar-chairez",
+            "name": "Edgar Chairez",
+            "corner": "blue",
+            "rank": null,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CHAIREZ_EDGAR_R_09-12.png?itok=wXS0sEEy"
+          },
+          {
+            "slug": "tim-elliott",
+            "name": "Tim Elliott",
+            "corner": "red",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/ELLIOTT_TIM_L_09-12.png?itok=TB4otgW3"
+          }
+        ]
+      },
+      {
+        "id": "13001",
+        "weightClass": "Welterweight",
+        "section": "Prelims",
+        "order": 2002,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Unanimous",
+        "round": 3,
+        "time": "5:00",
+        "winner": "ignacio-bahamondes",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "muslim-salikhov",
+            "name": "Muslim Salikhov",
+            "corner": "blue",
+            "rank": null,
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-11/SALIKHOV_MUSLIM_R_11-23.png?itok=M_bCD_Tl"
+          },
+          {
+            "slug": "ignacio-bahamondes",
+            "name": "Ignacio Bahamondes",
+            "corner": "red",
+            "rank": null,
+            "country": "Chile",
+            "flag": "🇨🇱",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/BAHAMONDES_IGNACIO_L_09-12.png?itok=iGNUfydE"
+          }
+        ]
+      },
+      {
+        "id": "12979",
+        "weightClass": "Middleweight",
+        "section": "Prelims",
+        "order": 2003,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "KO/TKO",
+        "round": 1,
+        "time": "4:25",
+        "winner": "yousri-belgaroui",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "djorden-santos",
+            "name": "Djorden Santos",
+            "corner": "blue",
+            "rank": null,
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/SANTOS_DJORDEN_R_09-12.png?itok=k-bSt3NQ"
+          },
+          {
+            "slug": "yousri-belgaroui",
+            "name": "Yousri Belgaroui",
+            "corner": "red",
+            "rank": null,
+            "country": "Netherlands",
+            "flag": "🇳🇱",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/BELGAROUI_YOUSRI_L_09-12.png?itok=P8SZucZ0"
+          }
+        ]
+      },
+      {
+        "id": "13118",
+        "weightClass": "Lightweight",
+        "section": "Prelims",
+        "order": 2004,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Submission",
+        "round": 3,
+        "time": "2:46",
+        "winner": "tommy-gantt",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "tommy-gantt",
+            "name": "Tommy Gantt",
+            "corner": "blue",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/GANTT_TOMMY_R_09-12.png?itok=Oib17HL7"
+          },
+          {
+            "slug": "drakkar-klose",
+            "name": "Drakkar Klose",
+            "corner": "red",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/KLOSE_DRAKKAR_L_09-12.png?itok=Bo8oEAxh"
+          }
+        ]
+      },
+      {
+        "id": "fight-night-september-12-2026-rafa-garcia-zhu-rong",
+        "weightClass": "Lightweight",
+        "section": "Prelims",
+        "order": 2005,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Unanimous",
+        "round": 3,
+        "time": "5:00",
+        "winner": "rong-zhu",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "rong-zhu",
+            "name": "Rongzhu",
+            "corner": "blue",
+            "rank": null,
+            "country": "China",
+            "flag": "🇨🇳",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/RONGZHU_R_09-12.png?itok=ZDnHMzII"
+          },
+          {
+            "slug": "rafa-garcia",
+            "name": "Rafa Garcia",
+            "corner": "red",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/GARCIA_RAFA_L_09-12.png?itok=_gaftqFw"
+          }
+        ]
+      },
+      {
+        "id": "13119",
+        "weightClass": "Featherweight",
+        "section": "Prelims",
+        "order": 2006,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "KO/TKO",
+        "round": 1,
+        "time": "0:36",
+        "winner": "sean-king-iii",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "jessie-rosas",
+            "name": "Jessie Rosas",
+            "corner": "blue",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/ROSAS_JESSIE_R_09-12.png?itok=6Cm5nn1J"
+          },
+          {
+            "slug": "sean-king-iii",
+            "name": "Sean King III",
+            "corner": "red",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/KING_III_SEAN_L_09-12.png?itok=qml-1i83"
+          }
+        ]
+      },
+      {
+        "id": "12980",
+        "weightClass": "Women's Flyweight",
+        "section": "Prelims",
+        "order": 2007,
+        "status": "completed",
+        "titleBout": false,
+        "cancelled": false,
+        "method": "Decision - Unanimous",
+        "round": 3,
+        "time": "5:00",
+        "winner": "regina-tarin",
+        "hasStats": true,
+        "corners": [
+          {
+            "slug": "regina-tarin",
+            "name": "Regina Tarin",
+            "corner": "blue",
+            "rank": null,
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/TARIN_REGINA_R_09-12.png?itok=Fh_IxWHR"
+          },
+          {
+            "slug": "jj-aldrich",
+            "name": "JJ Aldrich",
+            "corner": "red",
+            "rank": null,
+            "country": "United States",
+            "flag": "🇺🇸",
+            "champion": false,
+            "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/ALDRICH_JJ_L_09-12.png?itok=BwMxOotN"
+          }
+        ]
+      }
+    ]
+  }
+}

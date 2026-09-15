@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UFC Fight Cards — Upcoming Schedule &amp; Recent Results</title>
+    <meta
+      name="description"
+      content="Every upcoming UFC fight card in card order, plus the most recent results with method, round and time. Built on the Cito UFC API."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥊</text></svg>"
+    />
+    <style>
+      :root {
+        --bg:#0a0b0f; --panel:#12141b; --panel-2:#171a23; --line:#242835;
+        --text:#e9ebf0; --muted:#8b93a7; --accent:#00e5cc; --accent-dim:#0d3d38;
+        --red:#ff4d5e; --blue:#4d9dff; --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+      }
+      *{box-sizing:border-box;margin:0;padding:0}
+      body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;max-width:1080px;margin:0 auto;padding:26px 20px 80px}
+      a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+      code{font-family:var(--mono);background:rgba(255,255,255,.06);padding:1px 5px;border-radius:4px;font-size:.9em}
+      .top{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding-bottom:16px;border-bottom:1px solid var(--line)}
+      .brand{display:flex;align-items:center;gap:10px}
+      .brand h1{font-size:18px;font-weight:620;letter-spacing:-.01em}
+      .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent)}
+      .pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.07em;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--panel);white-space:nowrap}
+      .pill.link{color:var(--accent);border-color:var(--accent-dim)}
+      .lede{margin:18px 0 20px;color:var(--muted);font-size:14px;line-height:1.7;max-width:70ch}
+      .lede strong{color:var(--text)}
+      .tabs{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+      .tab{background:var(--panel);border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:8px 16px;font-size:13px;cursor:pointer;font-family:inherit}
+      .tab.on{background:var(--accent);border-color:var(--accent);color:#05221f;font-weight:620}
+      .ev{margin-bottom:26px;background:var(--panel);border:1px solid var(--line);border-radius:13px;overflow:hidden}
+      .ev-head{padding:16px 18px;background:linear-gradient(180deg,var(--panel-2),var(--panel));border-bottom:1px solid var(--line)}
+      .ev-head h2{font-size:19px;font-weight:640;letter-spacing:-.01em;margin-bottom:6px}
+      .ev-meta{color:var(--muted);font-size:13px;display:flex;gap:14px;flex-wrap:wrap}
+      .tag{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.07em;padding:3px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+      .tag.dwcs{color:var(--accent);border-color:var(--accent-dim)}
+      .tag.title{color:var(--accent);border-color:var(--accent-dim);background:rgba(0,229,204,.07)}
+      .sect{padding:9px 18px 3px;font-size:11px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+      .bout{display:grid;grid-template-columns:1fr auto 1fr auto;gap:13px;align-items:center;padding:11px 18px;border-bottom:1px solid var(--line);font-size:14px}
+      .bout:last-child{border-bottom:none}
+      .bout .f{font-weight:540}
+      .bout .f.right{text-align:right}
+      .bout .f .r{display:block;color:var(--muted);font-size:11.5px;font-family:var(--mono);font-weight:400;margin-top:2px}
+      .bout .f .champ{color:var(--accent);font-size:10px;font-family:var(--mono);margin-left:5px}
+      .mid{font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+      .res{font-family:var(--mono);font-size:10.5px;color:var(--muted);text-align:right;white-space:nowrap}
+      .res.win{color:var(--accent)}
+      .noc{color:var(--muted);font-size:12px;padding:8px 18px 12px}
+      .empty{padding:26px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:14px;line-height:1.7}
+      .empty strong{color:var(--text);display:block;margin-bottom:6px}
+      footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px;display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+      footer .dim{opacity:.65}
+      @media(max-width:640px){.bout{grid-template-columns:1fr;gap:5px}.bout .f.right{text-align:left}.res{text-align:left}}
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="brand"><span class="dot"></span><h1>UFC Fight Cards</h1></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <span id="stamp" class="pill">Loading…</span>
+        <a class="pill link" href="https://citoapi.com/signup/" target="_blank" rel="noopener">Get a free API key →</a>
+      </div>
+    </div>
+
+    <p class="lede">
+      Every upcoming UFC card in <strong>card order</strong> — main event first, then the rest
+      of the main card, prelims and early prelims — plus the most recent results with
+      method, round and time. From the
+      <a href="https://citoapi.com/ufc-api/" target="_blank" rel="noopener">Cito UFC API</a>.
+    </p>
+
+    <div class="tabs">
+      <button class="tab on" data-view="upcoming">Upcoming cards</button>
+      <button class="tab" data-view="recent">Recent results</button>
+    </div>
+
+    <main id="out"></main>
+
+    <footer>
+      <span>Built on the <a href="https://citoapi.com/ufc-api/" target="_blank" rel="noopener">Cito UFC API</a></span>
+      <a href="https://citoapi.com/docs/api/ufc/" target="_blank" rel="noopener">Docs</a>
+      <a href="https://huggingface.co/spaces/aidancoit9203/ufc-live-dashboard" target="_blank" rel="noopener">Live dashboard</a>
+      <a href="https://huggingface.co/spaces/aidancoit9203/ufc-rankings" target="_blank" rel="noopener">Rankings</a>
+      <a href="https://huggingface.co/datasets/aidancoit9203/ufc-round-stats" target="_blank" rel="noopener">Dataset</a>
+      <span class="dim">Not affiliated with the UFC, Zuffa or TKO Group.</span>
+    </footer>
+
+    <script>
+      const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      const fmt = (iso) => { if (!iso) return 'TBD'; try { return new Date(iso).toLocaleString(undefined,{weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}); } catch { return iso; } };
+      const side = (b, s) => (b.corners || []).find((c) => (c.corner || '').toLowerCase() === s) || {};
+
+      function cornerHtml(c, dir) {
+        const rank = c.rank ? `<span class="r">#${esc(c.rank)}${c.country ? ' · ' + esc(c.country) : ''}</span>` : (c.country ? `<span class="r">${esc(c.country)}</span>` : '');
+        const champ = c.champion ? '<span class="champ">C</span>' : '';
+        return `<div class="f ${dir}">${esc(c.name || 'TBD')}${champ}${rank}</div>`;
+      }
+
+      function boutRows(card) {
+        if (!card.length) return '<div class="noc">Card not announced yet.</div>';
+        let out = '';
+        let lastSection = null;
+        for (const b of card) {
+          const sect = b.section || 'Card';
+          if (sect !== lastSection) { out += `<div class="sect">${esc(sect)}</div>`; lastSection = sect; }
+          const red = side(b, 'red'), blue = side(b, 'blue');
+          let res = '';
+          if (b.status === 'completed' && b.method) {
+            const winner = b.winner === red.slug ? red : b.winner === blue.slug ? blue : null;
+            const name = winner ? (winner.name || '').split(' ').pop() : 'Draw';
+            res = `<div class="res win">${esc(name)} · ${esc(b.method)}${b.round ? ' R' + b.round : ''}${b.time ? ' ' + esc(b.time) : ''}</div>`;
+          } else if (b.titleBout) {
+            res = '<span class="tag title">Title</span>';
+          } else {
+            res = `<div class="res">${esc(b.weightClass || '')}</div>`;
+          }
+          out += `<div class="bout">${cornerHtml(red,'')}<div class="mid">vs</div>${cornerHtml(blue,'right')}${res}</div>`;
+        }
+        return out;
+      }
+
+      function eventBlock(ev, showResults) {
+        const tag = ev.isContenderSeries ? '<span class="tag dwcs">Contender Series</span>' : '';
+        return `<div class="ev">
+          <div class="ev-head">
+            <h2>${esc(ev.title)}</h2>
+            <div class="ev-meta">
+              <span>${esc(fmt(ev.startsAt))}</span>
+              ${ev.location ? `<span>${esc(ev.location)}</span>` : ''}
+              <span>${(ev.card || []).length} bouts</span>
+              ${tag}
+            </div>
+          </div>
+          ${boutRows(ev.card || [], showResults)}
+        </div>`;
+      }
+
+      function render(view) {
+        const out = document.getElementById('out');
+        if (!snapshot) return;
+        if (view === 'recent') {
+          out.innerHTML = snapshot.recent
+            ? eventBlock(snapshot.recent, true)
+            : '<div class="empty"><strong>No recent card.</strong></div>';
+        } else {
+          out.innerHTML = snapshot.upcoming.length
+            ? snapshot.upcoming.map((e) => eventBlock(e, false)).join('')
+            : '<div class="empty"><strong>No upcoming cards.</strong>Check back on a fight week.</div>';
+        }
+      }
+
+      let snapshot = null;
+      let view = 'upcoming';
+
+      document.querySelectorAll('.tab').forEach((t) =>
+        t.addEventListener('click', () => {
+          document.querySelectorAll('.tab').forEach((x) => x.classList.remove('on'));
+          t.classList.add('on');
+          view = t.dataset.view;
+          render(view);
+        }),
+      );
+
+      fetch('./snapshot.json', { cache: 'no-store' })
+        .then((r) => { if (!r.ok) throw new Error('no snapshot'); return r.json(); })
+        .then((s) => {
+          snapshot = s;
+          const when = s.generatedAt ? new Date(s.generatedAt).toLocaleString() : '';
+          document.getElementById('stamp').textContent = 'Snapshot ' + when;
+          render(view);
+        })
+        .catch(() => {
+          document.getElementById('out').innerHTML =
+            '<div class="empty"><strong>Snapshot unavailable.</strong>This Space renders a baked snapshot of live card data.</div>';
+          document.getElementById('stamp').textContent = 'Unavailable';
+        });
+    </script>
+  </body>
+</html>

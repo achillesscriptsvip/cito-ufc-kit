@@ -1,23 +1,29 @@
 {
-  "title": "UFC Round Statistics",
-  "id": "citoapi/ufc-round-statistics",
-  "licenses": [{ "name": "CC0-1.0" }],
-  "description": "Round-by-round striking and grappling statistics from the UFC — one row per fighter per round, with bout and event context joined on.\n\nGenerated from the Cito UFC API (https://citoapi.com/ufc-api/). The upstream API returns strikes as combined strings (\"3 of 5\") and control time as a clock (\"0:11\"); this dataset splits those into clean integer columns and adds derived accuracy fields, so it loads straight into pandas with no parsing work.\n\nFILES\n- round_stats.csv      One row per fighter per round. ~2,300 rows across ~500 bouts and ~620 fighters.\n- dwcs_prospects.csv   Every Dana White's Contender Series bout on the current season, with both fighters' profiles attached.\n- generate.py          Regenerates both files from the live API.\n\nCOLUMNS (round_stats)\nIdentity: event_slug, event_title, event_date, bout_id, weight_class, is_title_bout, card_section, fighter_slug, fighter_name, opponent_slug, opponent_name\nResult:   result, result_round, result_time, winner_slug\nRound:    round, knockdowns, submission_attempts, reversals, control_time_sec\nStrikes:  sig_strikes_landed, sig_strikes_attempted, sig_strike_accuracy, total_strikes_landed, total_strikes_attempted\nGrappling: takedowns_landed, takedowns_attempted, takedown_accuracy\nTarget splits:   head_landed/attempted, body_landed/attempted, leg_landed/attempted\nPosition splits: distance_landed/attempted, clinch_landed/attempted, ground_landed/attempted\n\nEXAMPLE QUESTIONS\n- Which fighters land the most significant strikes per round?\n- How does striking accuracy vary by weight class?\n- Does control time predict winning a round?\n- Which fighters are most effective at distance versus in the clinch?\n\nLIMITATIONS\n- dwcs_prospects is sparse: Contender Series fighters are not yet on the main roster, so country, division, age and stance are frequently null. Record and reach are reliable.\n- opponent_name is null for ~2% of rows where the corner could not be matched.\n- Accuracy fields are null when attempts were zero, to avoid divide-by-zero.\n- Coverage reflects recent events, not the full historical catalogue. Increase the sweep with --events N in generate.py.\n\nREGENERATE\n  pip install httpx\n  export CITO_API_KEY=your-key    # free tier: https://citoapi.com/signup/\n  python generate.py --dataset all --events 40\n\nATTRIBUTION\nData compiled by Cito API from publicly accessible sources. If you publish work derived from this dataset, please cite Cito API and link to https://citoapi.com/ufc-api/\n\nFree API key (500 calls/month, no credit card): https://citoapi.com/signup/\n\nDISCLAIMER\nIndependent dataset. Not affiliated with, endorsed by, or licensed by the UFC, Zuffa, TKO Group Holdings or any promotion. All trademarks belong to their respective owners.",
-  "keywords": [
-    "sports",
-    "mma",
-    "ufc",
-    "fight data",
-    "combat sports",
-    "statistics",
-    "tabular",
-    "classification",
-    "regression"
-  ],
-  "collaborators": [],
-  "data": [
-    { "path": "round_stats.csv", "description": "One row per fighter per round with strike, takedown and control-time statistics, plus target and position splits." },
-    { "path": "dwcs_prospects.csv", "description": "Dana White's Contender Series bouts with both fighters' profiles attached." },
-    { "path": "generate.py", "description": "Script that regenerates both datasets from the live Cito UFC API." }
-  ]
+    "title":  "UFC Round Statistics",
+    "subtitle":  "Round-by-round UFC striking and grappling statistics",
+    "id":  "citoapi/ufc-round-statistics",
+    "licenses":  [
+                     {
+                         "name":  "CC0-1.0"
+                     }
+                 ],
+    "description":  "Round-by-round striking and grappling statistics from the UFC, one row per fighter per round, with bout and event context joined on.\n\nGenerated from the Cito UFC API (https://citoapi.com/ufc-api/). The upstream API returns strikes as combined strings (\"3 of 5\") and control time as a clock (\"0:11\"); this dataset splits those into clean integer columns and adds derived accuracy fields, so it loads straight into pandas with no parsing work.\n\nFILES\n- round_stats.csv      One row per fighter per round. 2,335 rows across 502 bouts and 623 fighters.\n- dwcs_prospects.csv   Every Dana White\u0027s Contender Series bout on the current season, with both fighters\u0027 profiles attached.\n- generate.py          Regenerates both files from the live API.\n\nCOLUMNS (round_stats)\nIdentity:  event_slug, event_title, event_date, bout_id, weight_class, is_title_bout, card_section, fighter_slug, fighter_name, opponent_slug, opponent_name\nResult:    result, result_round, result_time, winner_slug\nRound:     round, knockdowns, submission_attempts, reversals, control_time_sec\nStrikes:   sig_strikes_landed, sig_strikes_attempted, sig_strike_accuracy, total_strikes_landed, total_strikes_attempted\nGrappling: takedowns_landed, takedowns_attempted, takedown_accuracy\nTarget splits:   head_landed/attempted, body_landed/attempted, leg_landed/attempted\nPosition splits: distance_landed/attempted, clinch_landed/attempted, ground_landed/attempted\n\nEXAMPLE QUESTIONS\n- Which fighters land the most significant strikes per round?\n- How does striking accuracy vary by weight class?\n- Does control time predict winning a round?\n- Which fighters are most effective at distance versus in the clinch?\n\nLIMITATIONS\n- dwcs_prospects is sparse: Contender Series fighters are not yet on the main roster, so country, division, age and stance are frequently null. Record and reach are reliable.\n- opponent_name is null for about 2% of rows where the corner could not be matched.\n- Accuracy fields are null when attempts were zero, to avoid divide-by-zero.\n- Coverage reflects recent events, not the full historical catalogue. Increase the sweep with --events N in generate.py.\n\nREGENERATE\n  pip install httpx\n  export CITO_API_KEY=your-key    # free tier: https://citoapi.com/signup/\n  python generate.py --dataset all --events 40\n\nATTRIBUTION\nData compiled by Cito API from publicly accessible sources. If you publish work derived from this dataset, please cite Cito API and link to https://citoapi.com/ufc-api/\n\nFree API key (500 calls/month, no credit card): https://citoapi.com/signup/\n\nDISCLAIMER\nIndependent dataset. Not affiliated with, endorsed by, or licensed by the UFC, Zuffa, TKO Group Holdings or any promotion. All trademarks belong to their respective owners.",
+    "data":  [
+                 {
+                     "path":  "round_stats.csv",
+                     "description":  "One row per fighter per round with strike, takedown and control-time statistics, plus target and position splits."
+                 },
+                 {
+                     "path":  "dwcs_prospects.csv",
+                     "description":  "Dana White\u0027s Contender Series bouts with both fighters\u0027 profiles attached."
+                 },
+                 {
+                     "path":  "generate.py",
+                     "description":  "Script that regenerates both datasets from the live Cito UFC API."
+                 },
+                 {
+                     "path":  "README.md",
+                     "description":  "Dataset card with column reference and limitations."
+                 }
+             ]
 }

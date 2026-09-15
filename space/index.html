@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UFC Live Fight Data — Cito API</title>
+    <meta
+      name="description"
+      content="Live UFC fight cards, round-by-round statistics, rankings and odds. An interactive dashboard built on the Cito UFC API."
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥊</text></svg>"
+    />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <span class="dot"></span>
+        <h1>UFC Live Fight Data</h1>
+      </div>
+      <div class="top-right">
+        <span id="status" class="pill">Not connected</span>
+        <a class="pill link" href="https://citoapi.com/signup/" target="_blank" rel="noopener"
+          >Get a free key →</a
+        >
+      </div>
+    </header>
+
+    <section class="key-panel">
+      <div class="key-row">
+        <input
+          id="apikey"
+          type="password"
+          placeholder="Paste your free Cito API key (cito_…)"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button id="connect">Connect</button>
+        <button id="forget" class="ghost">Forget</button>
+      </div>
+      <p class="hint">
+        Free key, 500 calls/month, no card —
+        <a href="https://citoapi.com/signup/" target="_blank" rel="noopener">citoapi.com/signup</a>.
+        Your key stays in this browser and is sent only to <code>api.citoapi.com</code>.
+      </p>
+    </section>
+
+    <main id="app">
+      <div class="empty" id="placeholder">
+        <strong>No data yet.</strong>
+        <p>
+          Paste a Cito API key above and hit Connect to load the next UFC card,
+          recent results, rankings and live fight-night state.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <span>Built on the <a href="https://citoapi.com/ufc-api/" target="_blank" rel="noopener">Cito UFC API</a></span>
+      <a href="https://citoapi.com/docs/api/ufc/" target="_blank" rel="noopener">Docs</a>
+      <a href="https://github.com/achillesscriptsvip/cito-ufc-kit" target="_blank" rel="noopener">SDKs &amp; MCP server</a>
+      <a href="https://huggingface.co/datasets/aidancoit9203/ufc-round-stats" target="_blank" rel="noopener">Dataset</a>
+      <span class="dim">Not affiliated with the UFC, Zuffa or TKO Group.</span>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

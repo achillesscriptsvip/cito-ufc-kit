@@ -1,0 +1,2520 @@
+{
+  "generatedAt": "2026-09-15T21:52:04.636Z",
+  "source": "Cito UFC API",
+  "sourceUrl": "https://citoapi.com/ufc-api/",
+  "event": {
+    "slug": "dwcs-10-6",
+    "title": "Dana White's Contender Series 10.6",
+    "startsAt": "2026-09-15T23:00:00.000Z",
+    "locationText": "Meta Apex, Las Vegas, Nevada, USA"
+  },
+  "card": [
+    {
+      "id": "13126",
+      "weightClass": "Welterweight",
+      "cardSection": "Main",
+      "status": "confirmed",
+      "titleBout": false,
+      "winnerFighterSlug": null,
+      "method": null,
+      "resultRound": null,
+      "resultTime": null,
+      "fighters": [
+        {
+          "fighterSlug": "mayton-perea",
+          "fighterName": "Mayton Perea",
+          "corner": "blue",
+          "country": null,
+          "rankText": null
+        },
+        {
+          "fighterSlug": "zevan-hunt",
+          "fighterName": "Zevan Hunt",
+          "corner": "red",
+          "country": null,
+          "rankText": null
+        }
+      ]
+    },
+    {
+      "id": "13127",
+      "weightClass": "Middleweight",
+      "cardSection": "Main",
+      "status": "confirmed",
+      "titleBout": false,
+      "winnerFighterSlug": null,
+      "method": null,
+      "resultRound": null,
+      "resultTime": null,
+      "fighters": [
+        {
+          "fighterSlug": "igor-cavalcanti",
+          "fighterName": "Igor Cavalcanti",
+          "corner": "blue",
+          "country": null,
+          "rankText": null
+        },
+        {
+          "fighterSlug": "oscar-ravello",
+          "fighterName": "Oscar Ravello",
+          "corner": "red",
+          "country": null,
+          "rankText": null
+        }
+      ]
+    },
+    {
+      "id": "13128",
+      "weightClass": "Lightweight",
+      "cardSection": "Main",
+      "status": "confirmed",
+      "titleBout": false,
+      "winnerFighterSlug": null,
+      "method": null,
+      "resultRound": null,
+      "resultTime": null,
+      "fighters": [
+        {
+          "fighterSlug": "akbar-abdullaev",
+          "fighterName": "Akbar Abdullaev",
+          "corner": "blue",
+          "country": null,
+          "rankText": null
+        },
+        {
+          "fighterSlug": "ednilson-santos",
+          "fighterName": "Ednilson Santos",
+          "corner": "red",
+          "country": null,
+          "rankText": null
+        }
+      ]
+    },
+    {
+      "id": "13129",
+      "weightClass": "Middleweight",
+      "cardSection": "Main",
+      "status": "confirmed",
+      "titleBout": false,
+      "winnerFighterSlug": null,
+      "method": null,
+      "resultRound": null,
+      "resultTime": null,
+      "fighters": [
+        {
+          "fighterSlug": "hugo-guillon",
+          "fighterName": "Hugo Guillon",
+          "corner": "blue",
+          "country": null,
+          "rankText": null
+        },
+        {
+          "fighterSlug": "luis-hernandez",
+          "fighterName": "Luis Hernandez",
+          "corner": "red",
+          "country": null,
+          "rankText": null
+        }
+      ]
+    },
+    {
+      "id": "13130",
+      "weightClass": "Featherweight",
+      "cardSection": "Main",
+      "status": "confirmed",
+      "titleBout": false,
+      "winnerFighterSlug": null,
+      "method": null,
+      "resultRound": null,
+      "resultTime": null,
+      "fighters": [
+        {
+          "fighterSlug": "antonio-monteiro",
+          "fighterName": "Antonio Monteiro",
+          "corner": "blue",
+          "country": null,
+          "rankText": null
+        },
+        {
+          "fighterSlug": "tyshawn-williams",
+          "fighterName": "Tyshawn Williams",
+          "corner": "red",
+          "country": null,
+          "rankText": null
+        }
+      ]
+    }
+  ],
+  "recent": {
+    "slug": "ufc-fight-night-september-12-2026",
+    "title": "Noche UFC",
+    "startsAt": "2026-09-12T21:00:00.000Z",
+    "card": [
+      {
+        "id": "13008",
+        "weightClass": "Featherweight",
+        "cardSection": "Main Card",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "jean-silva",
+        "method": "Submission",
+        "resultRound": 3,
+        "resultTime": "2:57",
+        "fighters": [
+          {
+            "fighterSlug": "jose-miguel-delgado",
+            "fighterName": "Jose Miguel Delgado",
+            "corner": "blue",
+            "country": "United States",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "jean-silva",
+            "fighterName": "Jean Silva",
+            "corner": "red",
+            "country": "Brazil",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "12977",
+        "weightClass": "Flyweight",
+        "cardSection": "Main Card",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "brandon-moreno",
+        "method": "Decision - Split",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "joseph-morales",
+            "fighterName": "Joseph Morales",
+            "corner": "blue",
+            "country": "United States",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "brandon-moreno",
+            "fighterName": "Brandon Moreno",
+            "corner": "red",
+            "country": "Mexico",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "fight-night-september-12-2026-marwan-rahiki-tommy-mcmillen",
+        "weightClass": "Featherweight",
+        "cardSection": "Main Card",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "tommy-mcmillen",
+        "method": "Decision - Unanimous",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "marwan-rahiki",
+            "fighterName": "Marwan Rahiki",
+            "corner": "blue",
+            "country": "Morocco",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "tommy-mcmillen",
+            "fighterName": "Tommy McMillen",
+            "corner": "red",
+            "country": "United States",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "12976",
+        "weightClass": "Women's Flyweight",
+        "cardSection": "Main Card",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "alexa-grasso",
+        "method": "Decision - Unanimous",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "alexa-grasso",
+            "fighterName": "Alexa Grasso",
+            "corner": "blue",
+            "country": "Mexico",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "manon-fiorot",
+            "fighterName": "Manon Fiorot",
+            "corner": "red",
+            "country": "France",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "12975",
+        "weightClass": "Heavyweight",
+        "cardSection": "Main Card",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "curtis-blaydes",
+        "method": "Decision - Unanimous",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "curtis-blaydes",
+            "fighterName": "Curtis Blaydes",
+            "corner": "blue",
+            "country": "United States",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "waldo-cortes-acosta",
+            "fighterName": "Waldo Cortes Acosta",
+            "corner": "red",
+            "country": "Dominican Republic",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "13000",
+        "weightClass": "Bantamweight",
+        "cardSection": "Main Card",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "david-martinez",
+        "method": "Decision - Unanimous",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "dan-ige",
+            "fighterName": "Dan Ige",
+            "corner": "blue",
+            "country": "United States",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "david-martinez",
+            "fighterName": "David Martinez",
+            "corner": "red",
+            "country": "Mexico",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "12978",
+        "weightClass": "Catchweight",
+        "cardSection": "Prelims",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "tim-elliott",
+        "method": "Decision - Unanimous",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "edgar-chairez",
+            "fighterName": "Edgar Chairez",
+            "corner": "blue",
+            "country": "Mexico",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "tim-elliott",
+            "fighterName": "Tim Elliott",
+            "corner": "red",
+            "country": "United States",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "13001",
+        "weightClass": "Welterweight",
+        "cardSection": "Prelims",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "ignacio-bahamondes",
+        "method": "Decision - Unanimous",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "muslim-salikhov",
+            "fighterName": "Muslim Salikhov",
+            "corner": "blue",
+            "country": "Russia",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "ignacio-bahamondes",
+            "fighterName": "Ignacio Bahamondes",
+            "corner": "red",
+            "country": "Chile",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "12979",
+        "weightClass": "Middleweight",
+        "cardSection": "Prelims",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "yousri-belgaroui",
+        "method": "KO/TKO",
+        "resultRound": 1,
+        "resultTime": "4:25",
+        "fighters": [
+          {
+            "fighterSlug": "djorden-santos",
+            "fighterName": "Djorden Santos",
+            "corner": "blue",
+            "country": "Brazil",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "yousri-belgaroui",
+            "fighterName": "Yousri Belgaroui",
+            "corner": "red",
+            "country": "Netherlands",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "13118",
+        "weightClass": "Lightweight",
+        "cardSection": "Prelims",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "tommy-gantt",
+        "method": "Submission",
+        "resultRound": 3,
+        "resultTime": "2:46",
+        "fighters": [
+          {
+            "fighterSlug": "tommy-gantt",
+            "fighterName": "Tommy Gantt",
+            "corner": "blue",
+            "country": "United States",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "drakkar-klose",
+            "fighterName": "Drakkar Klose",
+            "corner": "red",
+            "country": "United States",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "fight-night-september-12-2026-rafa-garcia-zhu-rong",
+        "weightClass": "Lightweight",
+        "cardSection": "Prelims",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "rong-zhu",
+        "method": "Decision - Unanimous",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "rong-zhu",
+            "fighterName": "Rongzhu",
+            "corner": "blue",
+            "country": "China",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "rafa-garcia",
+            "fighterName": "Rafa Garcia",
+            "corner": "red",
+            "country": "United States",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "13119",
+        "weightClass": "Featherweight",
+        "cardSection": "Prelims",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "sean-king-iii",
+        "method": "KO/TKO",
+        "resultRound": 1,
+        "resultTime": "0:36",
+        "fighters": [
+          {
+            "fighterSlug": "jessie-rosas",
+            "fighterName": "Jessie Rosas",
+            "corner": "blue",
+            "country": "United States",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "sean-king-iii",
+            "fighterName": "Sean King III",
+            "corner": "red",
+            "country": "United States",
+            "rankText": null
+          }
+        ]
+      },
+      {
+        "id": "12980",
+        "weightClass": "Women's Flyweight",
+        "cardSection": "Prelims",
+        "status": "completed",
+        "titleBout": false,
+        "winnerFighterSlug": "regina-tarin",
+        "method": "Decision - Unanimous",
+        "resultRound": 3,
+        "resultTime": "5:00",
+        "fighters": [
+          {
+            "fighterSlug": "regina-tarin",
+            "fighterName": "Regina Tarin",
+            "corner": "blue",
+            "country": "Mexico",
+            "rankText": null
+          },
+          {
+            "fighterSlug": "jj-aldrich",
+            "fighterName": "JJ Aldrich",
+            "corner": "red",
+            "country": "United States",
+            "rankText": null
+          }
+        ]
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "fighterSlug": "petr-yan",
+      "fighterName": "Petr Yan",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "Russia",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "merab-dvalishvili",
+      "fighterName": "Merab Dvalishvili",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Georgia",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "sean-omalley",
+      "fighterName": "Sean O'Malley",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "song-yadong",
+      "fighterName": "Song Yadong",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "China",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "umar-nurmagomedov",
+      "fighterName": "Umar Nurmagomedov",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "mario-bautista",
+      "fighterName": "Mario Bautista",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "cory-sandhagen",
+      "fighterName": "Cory Sandhagen",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "aiemann-zahabi",
+      "fighterName": "Aiemann Zahabi",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "Canada",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "david-martinez",
+      "fighterName": "David Martinez",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Mexico",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "deiveson-figueiredo",
+      "fighterName": "Deiveson Figueiredo",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "marlon-vera",
+      "fighterName": "Marlon Vera",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "Ecuador",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "payton-talbott",
+      "fighterName": "Payton Talbott",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "raul-rosas-jr",
+      "fighterName": "Raul Rosas Jr.",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "Mexico",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "raoni-barcelos",
+      "fighterName": "Raoni Barcelos",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "farid-basharat",
+      "fighterName": "Farid Basharat",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": null,
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "marcus-mcghee",
+      "fighterName": "Marcus McGhee",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "bantamweight",
+      "division": "Bantamweight"
+    },
+    {
+      "fighterSlug": "alexander-volkanovski",
+      "fighterName": "Alexander Volkanovski",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "Australia",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "movsar-evloev",
+      "fighterName": "Movsar Evloev",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "diego-lopes",
+      "fighterName": "Diego Lopes",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "lerone-murphy",
+      "fighterName": "Lerone Murphy",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "England",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "aljamain-sterling",
+      "fighterName": "Aljamain Sterling",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "yair-rodriguez",
+      "fighterName": "Yair Rodriguez",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "Mexico",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "jean-silva",
+      "fighterName": "Jean Silva",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "arnold-allen",
+      "fighterName": "Arnold Allen",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "England",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "youssef-zalal",
+      "fighterName": "Youssef Zalal",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Morocco",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "kevin-vallejos",
+      "fighterName": "Kevin Vallejos",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Argentina",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "steve-garcia",
+      "fighterName": "Steve Garcia",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "brian-ortega",
+      "fighterName": "Brian Ortega",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "aaron-pico",
+      "fighterName": "Aaron Pico",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "melquizael-costa",
+      "fighterName": "Melquizael Costa",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "david-onama",
+      "fighterName": "David Onama",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "Uganda",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "patricio-freire",
+      "fighterName": "Patricio Pitbull",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "featherweight",
+      "division": "Featherweight"
+    },
+    {
+      "fighterSlug": "joshua-van",
+      "fighterName": "Joshua Van",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "Myanmar",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "alexandre-pantoja",
+      "fighterName": "Alexandre Pantoja",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "manel-kape",
+      "fighterName": "Manel Kape",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "Angola",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "brandon-royval",
+      "fighterName": "Brandon Royval",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "tatsuro-taira",
+      "fighterName": "Tatsuro Taira",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "Japan",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "kyoji-horiguchi",
+      "fighterName": "Kyoji Horiguchi",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "Japan",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "loneer-kavanagh",
+      "fighterName": "Lone’er Kavanagh",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "England",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "asu-almabayev",
+      "fighterName": "Asu Almabayev",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "Kazakhstan",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "brandon-moreno",
+      "fighterName": "Brandon Moreno",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Mexico",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "amir-albazi",
+      "fighterName": "Amir Albazi",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Iraq",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "ramazan-temirov",
+      "fighterName": "Ramazan Temirov",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "Uzbekistan",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "steve-erceg",
+      "fighterName": "Steve Erceg",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Australia",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "tim-elliott",
+      "fighterName": "Tim Elliott",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "su-mudaerji",
+      "fighterName": "Sumudaerji",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "China",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "tagir-ulanbekov",
+      "fighterName": "Tagir Ulanbekov",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "alex-perez",
+      "fighterName": "Alex Perez",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "flyweight",
+      "division": "Flyweight"
+    },
+    {
+      "fighterSlug": "tom-aspinall",
+      "fighterName": "Tom Aspinall",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "England",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "ciryl-gane",
+      "fighterName": "Ciryl Gane",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "France",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "alexander-volkov",
+      "fighterName": "Alexander Volkov",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "sergei-pavlovich",
+      "fighterName": "Sergei Pavlovich",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "josh-hokit",
+      "fighterName": "Josh Hokit",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "waldo-cortes-acosta",
+      "fighterName": "Waldo Cortes Acosta",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "Dominican Republic",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "curtis-blaydes",
+      "fighterName": "Curtis Blaydes",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "rizvan-kuniev",
+      "fighterName": "Rizvan Kuniev",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "vitor-petrino",
+      "fighterName": "Vitor Petrino",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "serghei-spivac",
+      "fighterName": "Serghei Spivac",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Moldova",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "ante-delija",
+      "fighterName": "Ante Delija",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "Croatia",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "valter-walker",
+      "fighterName": "Valter Walker",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "tyrell-fortune",
+      "fighterName": "Tyrell Fortune",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "derrick-lewis",
+      "fighterName": "Derrick Lewis",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "mario-pinto",
+      "fighterName": "Mario Pinto",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "Portugal",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "aleksandar-rakic",
+      "fighterName": "Aleksandar Rakić",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "Austria",
+      "normalizedDivision": "heavyweight",
+      "division": "Heavyweight"
+    },
+    {
+      "fighterSlug": "carlos-ulberg",
+      "fighterName": "Carlos Ulberg",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "New Zealand",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "magomed-ankalaev",
+      "fighterName": "Magomed Ankalaev",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "jiri-prochazka",
+      "fighterName": "Jiří Procházka",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "Czechia",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "alex-pereira",
+      "fighterName": "Alex Pereira",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "khalil-rountree-jr",
+      "fighterName": "Khalil Rountree Jr.",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "navajo-stirling",
+      "fighterName": "Navajo Stirling",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "New Zealand",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "paulo-costa",
+      "fighterName": "Paulo Costa",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "jamahal-hill",
+      "fighterName": "Jamahal Hill",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "azamat-murzakanov",
+      "fighterName": "Azamat Murzakanov",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "jan-blachowicz",
+      "fighterName": "Jan Błachowicz",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Poland",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "dominick-reyes",
+      "fighterName": "Dominick Reyes",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "bogdan-guskov",
+      "fighterName": "Bogdan Guskov",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Uzbekistan",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "robert-whittaker",
+      "fighterName": "Robert Whittaker",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "Australia",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "johnny-walker",
+      "fighterName": "Johnny Walker",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "alonzo-menifield",
+      "fighterName": "Alonzo Menifield",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "nikita-krylov",
+      "fighterName": "Nikita Krylov",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "light-heavyweight",
+      "division": "Light Heavyweight"
+    },
+    {
+      "fighterSlug": "justin-gaethje",
+      "fighterName": "Justin Gaethje",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "United States",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "ilia-topuria",
+      "fighterName": "Ilia Topuria",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Germany",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "arman-tsarukyan",
+      "fighterName": "Arman Tsarukyan",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "Armenia",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "charles-oliveira",
+      "fighterName": "Charles Oliveira",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "max-holloway",
+      "fighterName": "Max Holloway",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "paddy-pimblett",
+      "fighterName": "Paddy Pimblett",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "England",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "benoit-saint-denis",
+      "fighterName": "Benoît Saint Denis",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "France",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "mauricio-ruffy",
+      "fighterName": "Mauricio Ruffy",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "quillan-salkilld",
+      "fighterName": "Quillan Salkilld",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Australia",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "salahdine-parnasse",
+      "fighterName": "Salahdine Parnasse",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "France",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "rafael-fiziev",
+      "fighterName": "Rafael Fiziev",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "Kyrgyzstan",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "mateusz-gamrot",
+      "fighterName": "Mateusz Gamrot",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Poland",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "renato-moicano",
+      "fighterName": "Renato Moicano",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "dan-hooker",
+      "fighterName": "Dan Hooker",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "New Zealand",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "tom-nolan",
+      "fighterName": "Tom Nolan",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "Australia",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "beneil-dariush",
+      "fighterName": "Beneil Dariush",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "Iran",
+      "normalizedDivision": "lightweight",
+      "division": "Lightweight"
+    },
+    {
+      "fighterSlug": "islam-makhachev",
+      "fighterName": "Islam Makhachev",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "alexander-volkanovski",
+      "fighterName": "Alexander Volkanovski",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "Australia",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "petr-yan",
+      "fighterName": "Petr Yan",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "justin-gaethje",
+      "fighterName": "Justin Gaethje",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "ilia-topuria",
+      "fighterName": "Ilia Topuria",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "Germany",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "tom-aspinall",
+      "fighterName": "Tom Aspinall",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "England",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "sean-strickland",
+      "fighterName": "Sean Strickland",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "merab-dvalishvili",
+      "fighterName": "Merab Dvalishvili",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Georgia",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "alex-pereira",
+      "fighterName": "Alex Pereira",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "ciryl-gane",
+      "fighterName": "Ciryl Gane",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "France",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "joshua-van",
+      "fighterName": "Joshua Van",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "Myanmar",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "khamzat-chimaev",
+      "fighterName": "Khamzat Chimaev",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": null,
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "alexandre-pantoja",
+      "fighterName": "Alexandre Pantoja",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "arman-tsarukyan",
+      "fighterName": "Arman Tsarukyan",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "Armenia",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "charles-oliveira",
+      "fighterName": "Charles Oliveira",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "mens-pound-for-pound-top-rank",
+      "division": "Men's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "sean-strickland",
+      "fighterName": "Sean Strickland",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "United States",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "khamzat-chimaev",
+      "fighterName": "Khamzat Chimaev",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": null,
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "dricus-du-plessis",
+      "fighterName": "Dricus Du Plessis",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "South Africa",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "nassourdine-imavov",
+      "fighterName": "Nassourdine Imavov",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "brendan-allen",
+      "fighterName": "Brendan Allen",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "caio-borralho",
+      "fighterName": "Caio Borralho",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "joe-pyfer",
+      "fighterName": "Joe Pyfer",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "gregory-rodrigues",
+      "fighterName": "Gregory Rodrigues",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "anthony-hernandez",
+      "fighterName": "Anthony Hernandez",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "israel-adesanya",
+      "fighterName": "Israel Adesanya",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Nigeria",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "christian-leroy-duncan",
+      "fighterName": "Christian Leroy Duncan",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "England",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "jared-cannonier",
+      "fighterName": "Jared Cannonier",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "abus-magomedov",
+      "fighterName": "Abus Magomedov",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "Germany",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "ikram-aliskerov",
+      "fighterName": "Ikram Aliskerov",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "bo-nickal",
+      "fighterName": "Bo Nickal",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "shara-magomedov",
+      "fighterName": "Shara Magomedov",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "middleweight",
+      "division": "Middleweight"
+    },
+    {
+      "fighterSlug": "islam-makhachev",
+      "fighterName": "Islam Makhachev",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "Russia",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "ian-machado-garry",
+      "fighterName": "Ian Machado Garry",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Ireland",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "carlos-prates",
+      "fighterName": "Carlos Prates",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": null,
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "michael-morales",
+      "fighterName": "Michael Morales",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Ecuador",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "jack-della-maddalena",
+      "fighterName": "Jack Della Maddalena",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "Australia",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "gabriel-bonfim",
+      "fighterName": "Gabriel Bonfim",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "sean-brady",
+      "fighterName": "Sean Brady",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "belal-muhammad",
+      "fighterName": "Belal Muhammad",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "leon-edwards",
+      "fighterName": "Leon Edwards",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Jamaica",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "kamaru-usman",
+      "fighterName": "Kamaru Usman",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Nigeria",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "joaquin-buckley",
+      "fighterName": "Joaquin Buckley",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "yaroslav-amosov",
+      "fighterName": "Yaroslav Amosov",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Ukraine",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "uros-medic",
+      "fighterName": "Uroš Medić",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "Serbia",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "mike-malott",
+      "fighterName": "Mike Malott",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "Canada",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "daniel-rodriguez",
+      "fighterName": "Daniel Rodriguez",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "neil-magny",
+      "fighterName": "Neil Magny",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "welterweight",
+      "division": "Welterweight"
+    },
+    {
+      "fighterSlug": "kayla-harrison",
+      "fighterName": "Kayla Harrison",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "United States",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "julianna-pena",
+      "fighterName": "Julianna Peña",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "raquel-pennington",
+      "fighterName": "Raquel Pennington",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "joselyne-edwards",
+      "fighterName": "Joselyne Edwards",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Panama",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "norma-dumont",
+      "fighterName": "Norma Dumont",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "ailin-perez",
+      "fighterName": "Ailin Perez",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "Argentina",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "yana-santos",
+      "fighterName": "Yana Santos",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "Russia",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "luana-santos",
+      "fighterName": "Luana Santos",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "macy-chiasson",
+      "fighterName": "Macy Chiasson",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "jacqueline-cavalcanti",
+      "fighterName": "Jacqueline Cavalcanti",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "karol-rosa",
+      "fighterName": "Karol Rosa",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "bia-mesquita",
+      "fighterName": "Bia Mesquita",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "michelle-montague",
+      "fighterName": "Michelle Montague",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "New Zealand",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "nora-cornolle",
+      "fighterName": "Nora Cornolle",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "France",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "miesha-tate",
+      "fighterName": "Miesha Tate",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "melissa-croden",
+      "fighterName": "Melissa Croden",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "Canada",
+      "normalizedDivision": "womens-bantamweight",
+      "division": "Women's Bantamweight"
+    },
+    {
+      "fighterSlug": "valentina-shevchenko",
+      "fighterName": "Valentina Shevchenko",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "Kyrgyzstan",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "natalia-silva",
+      "fighterName": "Natalia Silva",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "manon-fiorot",
+      "fighterName": "Manon Fiorot",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "France",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "alexa-grasso",
+      "fighterName": "Alexa Grasso",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Mexico",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "erin-blanchfield",
+      "fighterName": "Erin Blanchfield",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "rose-namajunas",
+      "fighterName": "Rose Namajunas",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "maycee-barber",
+      "fighterName": "Maycee Barber",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "jasmine-jasudavicius",
+      "fighterName": "Jasmine Jasudavicius",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "Canada",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "wang-cong",
+      "fighterName": "Wang Cong",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "China",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "tracy-cortez",
+      "fighterName": "Tracy Cortez",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "miranda-maverick",
+      "fighterName": "Miranda Maverick",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "karine-silva",
+      "fighterName": "Karine Silva",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "casey-oneill",
+      "fighterName": "Casey O'Neill",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "Australia",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "eduarda-moura",
+      "fighterName": "Eduarda Moura",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "gabriella-fernandes",
+      "fighterName": "Gabriella Fernandes",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "jj-aldrich",
+      "fighterName": "JJ Aldrich",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-flyweight",
+      "division": "Women's Flyweight"
+    },
+    {
+      "fighterSlug": "valentina-shevchenko",
+      "fighterName": "Valentina Shevchenko",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "Kyrgyzstan",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "kayla-harrison",
+      "fighterName": "Kayla Harrison",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "zhang-weili",
+      "fighterName": "Zhang Weili",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "China",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "natalia-silva",
+      "fighterName": "Natalia Silva",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "mackenzie-dern",
+      "fighterName": "Mackenzie Dern",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "manon-fiorot",
+      "fighterName": "Manon Fiorot",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "France",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "alexa-grasso",
+      "fighterName": "Alexa Grasso",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "Mexico",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "erin-blanchfield",
+      "fighterName": "Erin Blanchfield",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "tatiana-suarez",
+      "fighterName": "Tatiana Suarez",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "julianna-pena",
+      "fighterName": "Julianna Peña",
+      "rankText": "10",
+      "rank": 10,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "virna-jandiroba",
+      "fighterName": "Virna Jandiroba",
+      "rankText": "11",
+      "rank": 11,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "rose-namajunas",
+      "fighterName": "Rose Namajunas",
+      "rankText": "12",
+      "rank": 12,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "raquel-pennington",
+      "fighterName": "Raquel Pennington",
+      "rankText": "13",
+      "rank": 13,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "denise-gomes",
+      "fighterName": "Denise Gomes",
+      "rankText": "14",
+      "rank": 14,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "maycee-barber",
+      "fighterName": "Maycee Barber",
+      "rankText": "15",
+      "rank": 15,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-pound-for-pound-top-rank",
+      "division": "Women's Pound-for-Pound Top Rank"
+    },
+    {
+      "fighterSlug": "mackenzie-dern",
+      "fighterName": "Mackenzie Dern",
+      "rankText": "C",
+      "rank": null,
+      "isChampion": true,
+      "country": "United States",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "zhang-weili",
+      "fighterName": "Zhang Weili",
+      "rankText": "1",
+      "rank": 1,
+      "isChampion": false,
+      "country": "China",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "tatiana-suarez",
+      "fighterName": "Tatiana Suarez",
+      "rankText": "2",
+      "rank": 2,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "virna-jandiroba",
+      "fighterName": "Virna Jandiroba",
+      "rankText": "3",
+      "rank": 3,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "denise-gomes",
+      "fighterName": "Denise Gomes",
+      "rankText": "4",
+      "rank": 4,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "gillian-robertson",
+      "fighterName": "Gillian Robertson",
+      "rankText": "5",
+      "rank": 5,
+      "isChampion": false,
+      "country": "Canada",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "yan-xiaonan",
+      "fighterName": "Yan Xiaonan",
+      "rankText": "6",
+      "rank": 6,
+      "isChampion": false,
+      "country": "China",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "fatima-kline",
+      "fighterName": "Fatima Kline",
+      "rankText": "7",
+      "rank": 7,
+      "isChampion": false,
+      "country": "United States",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "loopy-godinez",
+      "fighterName": "Loopy Godinez",
+      "rankText": "8",
+      "rank": 8,
+      "isChampion": false,
+      "country": "Mexico",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    },
+    {
+      "fighterSlug": "alexia-thainara",
+      "fighterName": "Alexia Thainara",
+      "rankText": "9",
+      "rank": 9,
+      "isChampion": false,
+      "country": "Brazil",
+      "normalizedDivision": "womens-strawweight",
+      "division": "Women's Strawweight"
+    }
+  ],
+  "coverage": {
+    "fighters": 3386,
+    "activeFighters": 980,
+    "rankings": 382,
+    "events": 812,
+    "statEvents": 790,
+    "upcomingEvents": 13,
+    "completedEvents": 796,
+    "bouts": 9051,
+    "boutStats": 17733,
+    "roundStats": 41777
+  }
+}

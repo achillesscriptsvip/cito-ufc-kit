@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UFC Rankings — Every Division, Media &amp; Meta Boards</title>
+    <meta
+      name="description"
+      content="Current UFC divisional rankings for every weight class, on both the media-panel and Meta boards, with champions marked. Built on the Cito UFC API."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>"
+    />
+    <style>
+      :root {
+        --bg: #0a0b0f;
+        --panel: #12141b;
+        --panel-2: #171a23;
+        --line: #242835;
+        --text: #e9ebf0;
+        --muted: #8b93a7;
+        --accent: #00e5cc;
+        --accent-dim: #0d3d38;
+        --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 26px 20px 80px;
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      code {
+        font-family: var(--mono);
+        background: rgba(255,255,255,.06);
+        padding: 1px 5px;
+        border-radius: 4px;
+        font-size: .9em;
+      }
+
+      .top {
+        display: flex; align-items: center; justify-content: space-between;
+        gap: 14px; flex-wrap: wrap;
+        padding-bottom: 16px; border-bottom: 1px solid var(--line);
+      }
+      .brand { display: flex; align-items: center; gap: 10px; }
+      .brand h1 { font-size: 18px; font-weight: 620; letter-spacing: -.01em; }
+      .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+      .pill {
+        display: inline-flex; align-items: center; gap: 6px;
+        font-size: 11px; font-family: var(--mono); text-transform: uppercase;
+        letter-spacing: .07em; padding: 5px 10px; border-radius: 999px;
+        border: 1px solid var(--line); color: var(--muted); background: var(--panel);
+        white-space: nowrap;
+      }
+      .pill.link { color: var(--accent); border-color: var(--accent-dim); }
+
+      .lede { margin: 18px 0 22px; color: var(--muted); font-size: 14px; line-height: 1.7; max-width: 70ch; }
+      .lede strong { color: var(--text); }
+
+      .controls {
+        display: grid; grid-template-columns: 1fr auto auto; gap: 9px;
+        margin-bottom: 20px; align-items: center;
+      }
+      input, select {
+        background: var(--panel); border: 1px solid var(--line); border-radius: 9px;
+        padding: 10px 13px; color: var(--text); font-size: 14px;
+      }
+      input { font-family: var(--mono); }
+      input:focus, select:focus { outline: none; border-color: var(--accent-dim); }
+
+      .stats { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 18px; font-size: 12px; color: var(--muted); font-family: var(--mono); }
+      .stats b { color: var(--accent); font-weight: 600; }
+
+      .board-title {
+        font-size: 13px; text-transform: uppercase; letter-spacing: .1em;
+        color: var(--muted); font-family: var(--mono); font-weight: 500;
+        margin: 26px 0 12px; display: flex; align-items: baseline; gap: 8px;
+      }
+      .board-title .n { color: var(--accent); }
+
+      .div-block { margin-bottom: 22px; }
+      .div-head {
+        font-size: 15px; font-weight: 620; margin-bottom: 8px;
+        display: flex; align-items: baseline; gap: 9px;
+      }
+      .div-head .count { font-size: 11px; color: var(--muted); font-family: var(--mono); font-weight: 400; }
+
+      .row {
+        display: grid; grid-template-columns: 46px 1fr auto auto;
+        gap: 12px; align-items: center;
+        padding: 9px 14px; border-bottom: 1px solid var(--line);
+        font-size: 13.5px;
+      }
+      .row:last-child { border-bottom: none; }
+      .row.champ { background: linear-gradient(90deg, rgba(0,229,204,.07), transparent); }
+      .rank { font-family: var(--mono); color: var(--muted); font-size: 12px; }
+      .row.champ .rank { color: var(--accent); font-weight: 700; }
+      .who { font-weight: 500; }
+      .row.champ .who { font-weight: 650; }
+      .country { color: var(--muted); font-size: 12px; white-space: nowrap; }
+      .move { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+      .move.up { color: #4ade80; }
+      .move.down { color: #ff6b6b; }
+
+      .card {
+        background: var(--panel); border: 1px solid var(--line);
+        border-radius: 12px; padding: 6px 8px;
+      }
+
+      .empty { padding: 26px; border: 1px dashed var(--line); border-radius: 12px; color: var(--muted); font-size: 14px; line-height: 1.7; }
+      .empty strong { color: var(--text); display: block; margin-bottom: 6px; }
+
+      footer {
+        margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line);
+        color: var(--muted); font-size: 12.5px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center;
+      }
+      footer .dim { opacity: .65; }
+
+      @media (max-width: 640px) {
+        .controls { grid-template-columns: 1fr; }
+        .row { grid-template-columns: 34px 1fr; }
+        .country, .move { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="brand"><span class="dot"></span><h1>UFC Rankings</h1></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <span id="stamp" class="pill">Loading…</span>
+        <a class="pill link" href="https://citoapi.com/signup/" target="_blank" rel="noopener">Get a free API key →</a>
+      </div>
+    </div>
+
+    <p class="lede">
+      Every UFC division, on <strong>both boards</strong>: the media panel's vote and the
+      Meta (algorithmic) board. Champions are marked <strong>C</strong> and highlighted.
+      Live data from the <a href="https://citoapi.com/ufc-api/" target="_blank" rel="noopener">Cito UFC API</a>.
+    </p>
+
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search a fighter…" autocomplete="off" />
+      <select id="division"><option value="">All divisions</option></select>
+      <select id="system">
+        <option value="media">Media panel</option>
+        <option value="meta">Meta board</option>
+      </select>
+    </div>
+
+    <div class="stats" id="stats"></div>
+    <main id="out"></main>
+
+    <footer>
+      <span>Built on the <a href="https://citoapi.com/ufc-api/" target="_blank" rel="noopener">Cito UFC API</a></span>
+      <a href="https://citoapi.com/docs/api/ufc/" target="_blank" rel="noopener">Docs</a>
+      <a href="https://citoapi.com/openapi.json" target="_blank" rel="noopener">OpenAPI</a>
+      <a href="https://huggingface.co/spaces/aidancoit9203/ufc-live-dashboard" target="_blank" rel="noopener">Live dashboard</a>
+      <a href="https://github.com/achillesscriptsvip/cito-ufc-kit" target="_blank" rel="noopener">SDKs &amp; MCP server</a>
+      <span class="dim">Not affiliated with the UFC, Zuffa or TKO Group.</span>
+    </footer>
+
+    <script>
+      const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      const label = (d) => d.replace(/-/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase());
+
+      let snapshot = null;
+
+      function render() {
+        if (!snapshot) return;
+        const system = document.getElementById('system').value;
+        const division = document.getElementById('division').value;
+        const q = document.getElementById('q').value.trim().toLowerCase();
+        const board = snapshot.boards[system] || {};
+
+        const keys = Object.keys(board).filter((k) => !division || k === division).sort();
+        let totalRows = 0, shownRows = 0, champs = 0;
+
+        const sections = keys.map((k) => {
+          const block = board[k];
+          const rows = (block.entries || []).filter((e) => {
+            totalRows++;
+            if (q && !(e.name || '').toLowerCase().includes(q) && !(e.country || '').toLowerCase().includes(q)) return false;
+            shownRows++;
+            if (e.champion) champs++;
+            return true;
+          });
+          if (!rows.length) return '';
+
+          const body = rows.map((e) => {
+            const cls = e.champion ? 'row champ' : 'row';
+            const rankText = e.champion ? 'C' : (e.rankText ?? '—');
+            const mv = e.movement;
+            const mvCls = mv === 'up' ? 'move up' : mv === 'down' ? 'move down' : 'move';
+            const mvText = mv === 'up' ? '▲' : mv === 'down' ? '▼' : '';
+            return `<div class="${cls}">
+              <span class="rank">${esc(rankText)}</span>
+              <span class="who">${esc(e.name || e.slug || '')}</span>
+              <span class="country">${esc(e.flag || '')} ${esc(e.country || '')}</span>
+              <span class="${mvCls}">${mvText}</span>
+            </div>`;
+          }).join('');
+
+          return `<div class="div-block">
+            <div class="div-head">${esc(block.label || label(k))} <span class="count">${rows.length}</span></div>
+            <div class="card">${body}</div>
+          </div>`;
+        }).join('');
+
+        document.getElementById('stats').innerHTML =
+          `<span><b>${shownRows}</b> ranked entries</span>
+           <span><b>${keys.length}</b> divisions</span>
+           <span><b>${champs}</b> champions</span>
+           <span>board: <b>${esc(system)}</b></span>`;
+
+        document.getElementById('out').innerHTML = sections ||
+          '<div class="empty"><strong>No matches.</strong>Try a different division or search term.</div>';
+      }
+
+      fetch('./snapshot.json', { cache: 'no-store' })
+        .then((r) => { if (!r.ok) throw new Error('no snapshot'); return r.json(); })
+        .then((s) => {
+          snapshot = s;
+          const media = s.boards.media || {};
+          const sel = document.getElementById('division');
+          Object.keys(media).sort().forEach((k) => {
+            const o = document.createElement('option');
+            o.value = k;
+            o.textContent = (media[k].label || label(k));
+            sel.appendChild(o);
+          });
+          const when = s.generatedAt ? new Date(s.generatedAt).toLocaleString() : '';
+          document.getElementById('stamp').textContent = 'Snapshot ' + when;
+          render();
+        })
+        .catch(() => {
+          document.getElementById('out').innerHTML =
+            '<div class="empty"><strong>Snapshot unavailable.</strong>This Space renders a baked snapshot of live ranking data.</div>';
+          document.getElementById('stamp').textContent = 'Unavailable';
+        });
+
+      ['q', 'division', 'system'].forEach((id) =>
+        document.getElementById(id).addEventListener('input', render),
+      );
+    </script>
+  </body>
+</html>

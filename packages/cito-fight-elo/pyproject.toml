@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cito-fight-elo"
+version = "1.0.0"
+description = "Fight-Elo rating and win-probability engine for UFC and MMA. Fit ratings from real fight history, predict upcoming bouts, and backtest accuracy."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Cito API", email = "support@citoapi.com" }]
+keywords = [
+  "ufc", "mma", "elo", "rating", "prediction", "fight-prediction",
+  "sports-analytics", "betting-model", "combat-sports",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.optional-dependencies]
+api = ["httpx>=0.24"]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+fight-elo = "cito_fight_elo.cli:main"
+
+[project.urls]
+Homepage = "https://citoapi.com/ufc-api/"
+Documentation = "https://citoapi.com/docs/api/ufc/"
+Source = "https://github.com/achillesscriptsvip/cito-ufc-kit/tree/master/packages/cito-fight-elo"
+"Free API key" = "https://citoapi.com/signup/"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cito_fight_elo"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

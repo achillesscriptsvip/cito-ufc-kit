@@ -1,0 +1,399 @@
+{
+  "info": {
+    "_postman_id": "c1a0f3e2-7b4d-4a91-9c3e-ufc0c1t0ap1",
+    "name": "Cito UFC API",
+    "description": "**The UFC and MMA fight data API — fighters, fight cards, bout and round statistics, rankings, betting odds and live fight-night state.**\n\n### Getting started\n\n1. Get a free key (500 calls/month, no card) at https://citoapi.com/signup/\n2. Select the **Cito UFC API** environment (top right) and set `api_key`.\n3. Run **UFC / Overview** first — it returns the coverage map and the current entity counts.\n\n### Conventions\n\n- Auth: send `x-api-key`. The environment handles this for you.\n- Every list endpoint is paginated with `page` and `limit`.\n- Responses are the API's own JSON shape; nothing is reshaped.\n- An empty `data.markets` array on an odds request is a **normal coverage state** for third-party market data, not an error.\n\n### Coverage\n\nFighters (3,300+ profiles), events (800+ back to UFC 1 in 1993), bouts (9,000+ with results), round statistics (41,000+ rows with strikes split by target and position), rankings (media and meta boards across 12 divisions), odds (multi-bookmaker where coverage exists), and live in-round state over WebSocket/SSE.\n\n**Not covered:** judges' scorecards, multi-promotion (PFL/BKFC/RIZIN), rankings history.\n\n### Disclaimer\n\nIndependent API. Not affiliated with, endorsed by, or licensed by the UFC, Zuffa, TKO Group or any promotion. Odds data is third-party market data for research, media and display — not for betting settlement.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      { "key": "key", "value": "x-api-key", "type": "string" },
+      { "key": "value", "value": "{{api_key}}", "type": "string" },
+      { "key": "in", "value": "header", "type": "string" }
+    ]
+  },
+  "variable": [
+    { "key": "base_url", "value": "https://api.citoapi.com/api/v1" },
+    { "key": "fighter_slug", "value": "islam-makhachev" },
+    { "key": "event_slug", "value": "cryptocom-ufc-331" },
+    { "key": "bout_id", "value": "13126" },
+    { "key": "division", "value": "lightweight" }
+  ],
+  "item": [
+    {
+      "name": "UFC",
+      "description": "Every UFC endpoint in the Cito API.",
+      "item": [
+        {
+          "name": "Overview (coverage map)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/ufc",
+              "host": ["{{base_url}}"],
+              "path": ["ufc"]
+            },
+            "description": "Coverage index: entity counts and the full endpoint map. Start here — it is the fastest way to see what data exists and how fresh it is."
+          },
+          "response": []
+        },
+        {
+          "name": "Search fighters and events",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/ufc/search?q=makhachev",
+              "host": ["{{base_url}}"],
+              "path": ["ufc", "search"],
+              "query": [{ "key": "q", "value": "makhachev", "description": "Fighter or event name (min 2 chars)" }]
+            },
+            "description": "Resolve a name to the slug every other endpoint needs. Use this first."
+          },
+          "response": []
+        },
+        {
+          "name": "Fighters",
+          "item": [
+            {
+              "name": "List fighters",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/fighters?page=1&limit=25",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "fighters"],
+                  "query": [
+                    { "key": "page", "value": "1" },
+                    { "key": "limit", "value": "25" }
+                  ]
+                },
+                "description": "Paginated fighter directory. 3,300+ profiles."
+              },
+              "response": []
+            },
+            {
+              "name": "Fighter profile",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/fighters/{{fighter_slug}}",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "fighters", "{{fighter_slug}}"]
+                },
+                "description": "Record, division, champion status, height, reach, leg reach, stance, weight, gym, country and headshot URL."
+              },
+              "response": []
+            },
+            {
+              "name": "Fighter career stats",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/fighters/{{fighter_slug}}/stats",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "fighters", "{{fighter_slug}}", "stats"]
+                },
+                "description": "Career rates: strikes landed/absorbed per minute, accuracy and defence, takedown and submission averages, plus strike splits by target (head/body/leg) and position (standing/clinch/ground) and the win-by-method breakdown."
+              },
+              "response": []
+            },
+            {
+              "name": "Fighter fight history",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/fighters/{{fighter_slug}}/fights",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "fighters", "{{fighter_slug}}", "fights"]
+                },
+                "description": "Flattened history rows, newest first: opponent, event and result (outcome, method, round, time)."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Events",
+          "item": [
+            {
+              "name": "List events",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/events?page=1&limit=25",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "events"],
+                  "query": [
+                    { "key": "page", "value": "1" },
+                    { "key": "limit", "value": "25" },
+                    { "key": "hasStats", "value": "true", "disabled": true }
+                  ]
+                },
+                "description": "The full archive, newest first. Set `hasStats=true` to only return events with statistic coverage."
+              },
+              "response": []
+            },
+            {
+              "name": "Upcoming events",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/events/upcoming",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "events", "upcoming"]
+                },
+                "description": "The forward schedule. Numbered cards, Fight Nights and Dana White's Contender Series."
+              },
+              "response": []
+            },
+            {
+              "name": "Recent events",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/events/recent",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "events", "recent"]
+                },
+                "description": "Newest completed events."
+              },
+              "response": []
+            },
+            {
+              "name": "Event detail",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/events/{{event_slug}}",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "events", "{{event_slug}}"]
+                },
+                "description": "One event with its metadata, venue and broadcast information."
+              },
+              "response": []
+            },
+            {
+              "name": "Event fight card",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/events/{{event_slug}}/bouts",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "events", "{{event_slug}}", "bouts"]
+                },
+                "description": "The full card in card order — main event first, then the rest of the main card, prelims and early prelims. Both corners, weight class, title-bout flag and, once completed, the result."
+              },
+              "response": []
+            },
+            {
+              "name": "Event odds",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/events/{{event_slug}}/odds?bookmaker=all",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "events", "{{event_slug}}", "odds"],
+                  "query": [
+                    { "key": "bookmaker", "value": "all", "description": "all | draftkings | fanduel | betonline | ..." }
+                  ]
+                },
+                "description": "Card odds by fight, market and bookmaker. An empty markets array is a normal coverage state, not an error."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Bouts and statistics",
+          "item": [
+            {
+              "name": "List bouts",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/bouts?page=1&limit=25&hasStats=true",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "bouts"],
+                  "query": [
+                    { "key": "page", "value": "1" },
+                    { "key": "limit", "value": "25" },
+                    { "key": "hasStats", "value": "true" }
+                  ]
+                },
+                "description": "Paginated bouts across all events."
+              },
+              "response": []
+            },
+            {
+              "name": "Bout detail",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/bouts/{{bout_id}}",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "bouts", "{{bout_id}}"]
+                },
+                "description": "Result, both fighters, method, round, time and event context."
+              },
+              "response": []
+            },
+            {
+              "name": "Bout statistics",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/bouts/{{bout_id}}/stats?round=3",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "bouts", "{{bout_id}}", "stats"],
+                  "query": [{ "key": "round", "value": "3", "disabled": true, "description": "Optional round filter" }]
+                },
+                "description": "Per-fighter totals for the bout. Add `round` for a single round."
+              },
+              "response": []
+            },
+            {
+              "name": "Bout round-by-round stats",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/bouts/{{bout_id}}/rounds",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "bouts", "{{bout_id}}", "rounds"]
+                },
+                "description": "Round-by-round rows: significant and total strikes, takedowns, submission attempts, reversals, knockdowns and control time. 41,000+ rows across the catalog."
+              },
+              "response": []
+            },
+            {
+              "name": "Bout odds",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/bouts/{{bout_id}}/odds?bookmaker=all",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "bouts", "{{bout_id}}", "odds"],
+                  "query": [{ "key": "bookmaker", "value": "all" }]
+                },
+                "description": "Odds for one bout, by market and bookmaker."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Rankings",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/ufc/rankings/media/{{division}}",
+              "host": ["{{base_url}}"],
+              "path": ["ufc", "rankings", "media", "{{division}}"]
+            },
+            "description": "The media-panel board for one division (usually updated Tuesdays). Swap `media` for `meta` for the algorithmic board (usually Mondays). Drop the division segment for every division. Champions appear with rankText 'C'."
+          },
+          "response": []
+        },
+        {
+          "name": "Live",
+          "item": [
+            {
+              "name": "Live overview",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/live",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "live"]
+                },
+                "description": "Active bouts, feed lag and recommended poll interval."
+              },
+              "response": []
+            },
+            {
+              "name": "Live bout state",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/live/{{bout_id}}/state",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "live", "{{bout_id}}", "state"]
+                },
+                "description": "Compact current state for polling: round, clock, status and per-corner strike and takedown counts."
+              },
+              "response": []
+            },
+            {
+              "name": "Live event supervisor",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/live/events/{{event_slug}}",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "live", "events", "{{event_slug}}"]
+                },
+                "description": "Which bout on a card is live and what the worker is tracking."
+              },
+              "response": []
+            },
+            {
+              "name": "Live worker health",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/ufc/live/health",
+                  "host": ["{{base_url}}"],
+                  "path": ["ufc", "live", "health"]
+                },
+                "description": "Feed health and lag. Check this before trusting live data in production."
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MMA",
+      "description": "MMA-wide entry points.",
+      "item": [
+        {
+          "name": "MMA API landing",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://citoapi.com/mma-api/",
+              "host": ["citoapi", "com"],
+              "path": ["mma-api", ""]
+            },
+            "description": "Product page for the MMA API surface."
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

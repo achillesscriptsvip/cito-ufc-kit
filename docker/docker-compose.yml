@@ -1,0 +1,22 @@
+# Cito UFC API — Docker demo
+#
+#   echo "CITO_API_KEY=your-key" > .env
+#   docker compose up
+#
+# Free API key (500 calls/month, no card): https://citoapi.com/signup/
+
+services:
+  demo:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: citoapi/ufc-api-demo:latest
+    container_name: cito-ufc-demo
+    environment:
+      CITO_API_KEY: ${CITO_API_KEY:?set CITO_API_KEY in .env or the environment}
+      CITO_API_BASE_URL: ${CITO_API_BASE_URL:-https://api.citoapi.com/api/v1}
+    # Read-only root filesystem: the demo only reads from the network.
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    restart: "no"

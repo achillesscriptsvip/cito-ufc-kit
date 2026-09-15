@@ -1,0 +1,60 @@
+{
+  "name": "cito-ufc",
+  "version": "1.0.0",
+  "description": "Typed TypeScript client for the Cito UFC API — fighters, events, bout and round statistics, rankings, betting odds and live fight-night WebSocket streaming.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc && node scripts/make-cjs.mjs",
+    "smoke": "node smoke.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ufc",
+    "ufc-api",
+    "mma",
+    "mma-api",
+    "fight-data",
+    "sports-api",
+    "sports-data",
+    "rankings",
+    "odds",
+    "websocket",
+    "live",
+    "dwcs",
+    "contender-series",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achillesscriptsvip/cito-ufc-kit.git",
+    "directory": "packages/cito-ufc-js"
+  },
+  "homepage": "https://ufcapi.dev/",
+  "bugs": {
+    "url": "https://github.com/achillesscriptsvip/cito-ufc-kit/issues"
+  }
+}

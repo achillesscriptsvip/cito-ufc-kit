@@ -1,0 +1,56 @@
+{
+  "name": "cito-ufc-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP server for UFC and MMA fight data by Cito API — fighters, fight cards, bout and round statistics, rankings, betting odds and live fight-night state. Purpose-built for ChatGPT, Claude and other MCP hosts.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "cito-ufc-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ufc",
+    "ufc-api",
+    "mma",
+    "mma-api",
+    "fight-data",
+    "sports-data",
+    "chatgpt",
+    "claude",
+    "ai-agents",
+    "dwcs"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citoapi/cito-ufc-kit.git",
+    "directory": "packages/cito-ufc-mcp"
+  },
+  "homepage": "https://ufcapi.dev/",
+  "bugs": {
+    "url": "https://github.com/citoapi/cito-ufc-kit/issues"
+  }
+}

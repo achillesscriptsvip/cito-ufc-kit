@@ -1,0 +1,18 @@
+{
+  "name": "cito-ufc-discord-bot",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Discord bot that posts the next UFC card and live fight updates, built on the Cito UFC API.",
+  "scripts": {
+    "start": "node bot.mjs",
+    "card": "node bot.mjs --once card",
+    "live": "node bot.mjs --once live"
+  },
+  "dependencies": {
+    "cito-ufc": "file:../../packages/cito-ufc-js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
